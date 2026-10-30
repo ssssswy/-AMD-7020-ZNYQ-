@@ -1,0 +1,108 @@
+{
+  "files": [
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.6_ablation_20261027\\datasets\\manifest.json",
+      "target": "datasets/manifest.json",
+      "sha256": "a1213274a75eee77b45a213d4082411ed28411834ea7e49dc9f0e0e588c7a1b7",
+      "bytes": 107540
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.6_ablation_20261027\\datasets\\observed_config.jsonl",
+      "target": "datasets/observed_config.jsonl",
+      "sha256": "7bc442e10be55622b235704a764db60e5bdae5cbb295ee5c52504c4353adea17",
+      "bytes": 1632630
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.6_ablation_20261027\\datasets\\raw.npz",
+      "target": "datasets/raw.npz",
+      "sha256": "74879fab8fcc51a337600a9b5472ce2177cb1fe848511acccc98683d52a5e293",
+      "bytes": 309139
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.6_ablation_20261027\\datasets\\truth.jsonl",
+      "target": "datasets/truth.jsonl",
+      "sha256": "269d49dea896713ea118c07f0e1df6f3aba484d0474c03c0836e529eeb6ee429",
+      "bytes": 3821944
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.6_ablation_20261027\\features\\i2c.npz",
+      "target": "features/i2c.npz",
+      "sha256": "82a9e761415278d6c40e23edada9fd2506f24941a415d39c3f0e394ae2cef75e",
+      "bytes": 286206
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.6_ablation_20261027\\features\\manifest.json",
+      "target": "features/manifest.json",
+      "sha256": "ccf3182e3c65e772c391f6bb79b936d0f71761939ee4d2073ccfc2d8e3f89477",
+      "bytes": 901
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.6_ablation_20261027\\features\\spi.npz",
+      "target": "features/spi.npz",
+      "sha256": "98e6305086e69a2ec1e936f243d55aed1fa8d28e1ef7f19e070af33f8b2de26f",
+      "bytes": 255935
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.6_ablation_20261027\\features\\uart.npz",
+      "target": "features/uart.npz",
+      "sha256": "0958eab6ec8813922bc7fb47645194eb1f7d5efde91a81ad7f96b76cbbb9cc1e",
+      "bytes": 883839
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.6_ablation_20261027\\scripts\\common.py",
+      "target": "scripts/common.py",
+      "sha256": "21b8df05c696fbca0406e0296ceb13ec7d8c8cfbb884cdd02772c42e47632455",
+      "bytes": 2200
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.6_ablation_20261027\\scripts\\evaluate.py",
+      "target": "scripts/evaluate.py",
+      "sha256": "b85ed00f7b4f142db52ab73051168660dd397f345c11d42e1522395c399abb3c",
+      "bytes": 8275
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.6_ablation_20261027\\scripts\\features.py",
+      "target": "scripts/features.py",
+      "sha256": "7e1bbc2918c24b8af856a68256b8dd9d50bc281e33f3fed8714c36f03ededba7",
+      "bytes": 2970
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.6_ablation_20261027\\scripts\\feature_reference.c",
+      "target": "scripts/feature_reference.c",
+      "sha256": "357a81b976bdaad40578f66edd5497e0dd77dd448f8b4b022d19ed71a93ea51c",
+      "bytes": 2877
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.6_ablation_20261027\\scripts\\generate.py",
+      "target": "scripts/generate.py",
+      "sha256": "91272f3fce5d3b5fe7d1c9780cdbe63416fcd3fe4734290ceb7c06453e207b95",
+      "bytes": 14330
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.6_ablation_20261027\\scripts\\integer_model.py",
+      "target": "scripts/integer_model.py",
+      "sha256": "76d005039889d91af6c63584743dbf142c168a1ff83010bf4d720164db1c5017",
+      "bytes": 3597
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.6_ablation_20261027\\scripts\\report.py",
+      "target": "scripts/report.py",
+      "sha256": "aaca5bed4cd770b3d68405837af5ea8931403b93301d75f31862f1f3a282be2b",
+      "bytes": 23868
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.6_ablation_20261027\\scripts\\rules.py",
+      "target": "scripts/rules.py",
+      "sha256": "e6468374356f8db241cd09d4c1cdc09a752e5911152afea2a918a981781ea1f9",
+      "bytes": 5839
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.6_ablation_20261027\\scripts\\test_rules.py",
+      "target": "scripts/test_rules.py",
+      "sha256": "0ef3639b78ce247f228e175d47049397a90ea5d7c88ae19eae27a77e4027dc02",
+      "bytes": 2318
+    }
+  ],
+  "meaning": "sealed synthetic corpus and frozen features, not board measurements",
+  "programmed": false
+}

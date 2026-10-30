@@ -1,0 +1,315 @@
+{
+  "passed": true,
+  "workspace": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\vitis_ws_ai_49018",
+  "programmed": false,
+  "board_accepted": false,
+  "ui_ai_integrated": true,
+  "hardware_reused": true,
+  "version": "4.9",
+  "ai_abi": "0x00040801",
+  "display_baseline": "v4.7 direct RGB/DE/clock",
+  "scope": "v4.9 AND over v4.7 UART PL CNN, autonomous trigger and evidence, SPI/I2C PL edge rules; PS config/read/UI only; old PS inference preparation removed by section GC; not board accepted",
+  "vitis_server_port": 6380,
+  "memory": {
+    "passed": true,
+    "loads": [
+      {
+        "base": 1048576,
+        "size": 3216080,
+        "file_bytes": 3216080,
+        "offset": 4096,
+        "flags": 7,
+        "align": 4096
+      },
+      {
+        "base": 4276224,
+        "size": 3585728,
+        "file_bytes": 16404,
+        "offset": 3223552,
+        "flags": 6,
+        "align": 4096
+      },
+      {
+        "base": 100663296,
+        "size": 8388608,
+        "file_bytes": 0,
+        "offset": 0,
+        "flags": 6,
+        "align": 4096
+      },
+      {
+        "base": 109051904,
+        "size": 8388608,
+        "file_bytes": 0,
+        "offset": 0,
+        "flags": 6,
+        "align": 4096
+      },
+      {
+        "base": 117440512,
+        "size": 917504,
+        "file_bytes": 0,
+        "offset": 0,
+        "flags": 6,
+        "align": 4096
+      },
+      {
+        "base": 119537664,
+        "size": 8192,
+        "file_bytes": 0,
+        "offset": 0,
+        "flags": 6,
+        "align": 4096
+      }
+    ],
+    "allocated_sections": [
+      {
+        "index": 1,
+        "name": ".capture_history",
+        "type": 8,
+        "flags": 3,
+        "base": 100663296,
+        "size": 8388608,
+        "offset": 3244032,
+        "align": 64,
+        "link": 0,
+        "entsize": 0
+      },
+      {
+        "index": 2,
+        "name": ".trigger_history",
+        "type": 8,
+        "flags": 3,
+        "base": 109051904,
+        "size": 8388608,
+        "offset": 3244032,
+        "align": 64,
+        "link": 0,
+        "entsize": 0
+      },
+      {
+        "index": 3,
+        "name": ".wave_lod",
+        "type": 8,
+        "flags": 3,
+        "base": 117440512,
+        "size": 917504,
+        "offset": 3244032,
+        "align": 64,
+        "link": 0,
+        "entsize": 0
+      },
+      {
+        "index": 4,
+        "name": ".gpu_commands",
+        "type": 8,
+        "flags": 3,
+        "base": 119537664,
+        "size": 8192,
+        "offset": 3244032,
+        "align": 64,
+        "link": 0,
+        "entsize": 0
+      },
+      {
+        "index": 5,
+        "name": ".text",
+        "type": 1,
+        "flags": 6,
+        "base": 1048576,
+        "size": 387744,
+        "offset": 4096,
+        "align": 64,
+        "link": 0,
+        "entsize": 0
+      },
+      {
+        "index": 6,
+        "name": ".init",
+        "type": 1,
+        "flags": 6,
+        "base": 1436320,
+        "size": 12,
+        "offset": 391840,
+        "align": 4,
+        "link": 0,
+        "entsize": 0
+      },
+      {
+        "index": 7,
+        "name": ".fini",
+        "type": 1,
+        "flags": 6,
+        "base": 1436332,
+        "size": 12,
+        "offset": 391852,
+        "align": 4,
+        "link": 0,
+        "entsize": 0
+      },
+      {
+        "index": 8,
+        "name": ".rodata",
+        "type": 1,
+        "flags": 2,
+        "base": 1436344,
+        "size": 2826224,
+        "offset": 391864,
+        "align": 8,
+        "link": 0,
+        "entsize": 0
+      },
+      {
+        "index": 9,
+        "name": ".data",
+        "type": 1,
+        "flags": 3,
+        "base": 4262568,
+        "size": 1816,
+        "offset": 3218088,
+        "align": 8,
+        "link": 0,
+        "entsize": 0
+      },
+      {
+        "index": 10,
+        "name": ".drvcfg_sec",
+        "type": 1,
+        "flags": 3,
+        "base": 4264384,
+        "size": 236,
+        "offset": 3219904,
+        "align": 4,
+        "link": 0,
+        "entsize": 0
+      },
+      {
+        "index": 11,
+        "name": ".note.gnu.build-id",
+        "type": 7,
+        "flags": 2,
+        "base": 4264620,
+        "size": 36,
+        "offset": 3220140,
+        "align": 4,
+        "link": 0,
+        "entsize": 0
+      },
+      {
+        "index": 12,
+        "name": ".mmu_tbl",
+        "type": 1,
+        "flags": 2,
+        "base": 4276224,
+        "size": 16384,
+        "offset": 3223552,
+        "align": 1,
+        "link": 0,
+        "entsize": 0
+      },
+      {
+        "index": 13,
+        "name": ".ARM.exidx",
+        "type": 1879048193,
+        "flags": 130,
+        "base": 4292608,
+        "size": 8,
+        "offset": 3239936,
+        "align": 4,
+        "link": 5,
+        "entsize": 0
+      },
+      {
+        "index": 14,
+        "name": ".init_array",
+        "type": 14,
+        "flags": 3,
+        "base": 4292616,
+        "size": 8,
+        "offset": 3239944,
+        "align": 4,
+        "link": 0,
+        "entsize": 4
+      },
+      {
+        "index": 15,
+        "name": ".fini_array",
+        "type": 15,
+        "flags": 3,
+        "base": 4292624,
+        "size": 4,
+        "offset": 3239952,
+        "align": 4,
+        "link": 0,
+        "entsize": 4
+      },
+      {
+        "index": 17,
+        "name": ".bss",
+        "type": 8,
+        "flags": 3,
+        "base": 4292672,
+        "size": 3546752,
+        "offset": 3239956,
+        "align": 64,
+        "link": 0,
+        "entsize": 0
+      },
+      {
+        "index": 18,
+        "name": ".heap",
+        "type": 8,
+        "flags": 3,
+        "base": 7839424,
+        "size": 8192,
+        "offset": 3239956,
+        "align": 1,
+        "link": 0,
+        "entsize": 0
+      },
+      {
+        "index": 19,
+        "name": ".stack",
+        "type": 8,
+        "flags": 3,
+        "base": 7847616,
+        "size": 14336,
+        "offset": 3239956,
+        "align": 1,
+        "link": 0,
+        "entsize": 0
+      }
+    ],
+    "program_end": 7861952,
+    "margin_to_framebuffer": 526656,
+    "ai_static": [
+      {
+        "base": 4319768,
+        "size": 168,
+        "section": 17,
+        "info": 1
+      }
+    ],
+    "map_sha256": "f75f0fee1cb5dfd44b47798ed648f706cdfd7c573fe9af7738d0a6165e4f068b",
+    "limits": "Link-time ownership only; runtime stack/cache/DDR not board tested"
+  },
+  "workspace_report": {
+    "passed": true,
+    "workspace": "D:/FPGA_gpu/TraceGPU_2025_2/v4.9_full/vitis_ws_ai_49018",
+    "metadata_initialized": false,
+    "version": "2025.2",
+    "components": {
+      "tracegpu_app/vitis-comp.json": "a1c0f6fd14b0be0f49ef57171b9898924fb6094c92bb1b18d0212892e060acb6",
+      "tracegpu_platform/vitis-comp.json": "8cbae854766c08e1075f29e8e700167a4ee4869514a6211261818c5c99e49b98",
+      "_ide/version.ini": "14edb5bd83d0c84295649a3d05d386627532191a43fd4263da5c037ea0bafb09"
+    },
+    "scope": "Checked after genuine platform/BSP/app builds; metadata is not BSP build evidence",
+    "programmed": false
+  },
+  "tool": "Vitis 2025.2",
+  "source_members": 101,
+  "bit_sha256": "09999b044e32ed15e8c1bc7d2462733531b55df2a4afc3e8fdb1b6649aead6fb",
+  "xsa_sha256": "aa8f13573e5d0137bb61b585937f425f2cb4c4801fef4a7a649976f80c20c16e",
+  "elf_sha256": "05a3e3c4345db9481fcfa3aa52a92673d51e10306e7cc8df39383d085e668d2c",
+  "map_sha256": "f75f0fee1cb5dfd44b47798ed648f706cdfd7c573fe9af7738d0a6165e4f068b"
+}

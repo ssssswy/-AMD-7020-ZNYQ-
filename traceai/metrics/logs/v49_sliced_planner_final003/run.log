@@ -1,0 +1,3 @@
+SLICED_HIGHLIGHT_PASS clipped_rectangles=1 overflow_preserves_original=1
+MENU_ANIMATION_PASS home_entry_only=1 submenu_option_back_close_immediate=1
+SLICED_PLANNER_PASS comparisons=130 cooperative_calls=11509 append_events=13 max_records=128 cancellations=2 dense_records=262144 exact_rectangles_colors_edges_pixels=1 vector_legacy_search_skipped=1

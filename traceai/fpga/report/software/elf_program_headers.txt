@@ -1,0 +1,26 @@
+
+Elf file type is EXEC (Executable file)
+Entry point 0x100000
+There are 8 program headers, starting at offset 52
+
+Program Headers:
+  Type           Offset   VirtAddr   PhysAddr   FileSiz MemSiz  Flg Align
+  EXIDX          0x317000 0x00418000 0x00418000 0x00008 0x00008 R   0x4
+  LOAD           0x001000 0x00100000 0x00100000 0x3112d0 0x3112d0 RWE 0x1000
+  LOAD           0x313000 0x00414000 0x00414000 0x04014 0x36b6c0 RW  0x1000
+  LOAD           0x000000 0x06000000 0x06000000 0x00000 0x800000 RW  0x1000
+  LOAD           0x000000 0x06800000 0x06800000 0x00000 0x800000 RW  0x1000
+  LOAD           0x000000 0x07000000 0x07000000 0x00000 0xe0000 RW  0x1000
+  LOAD           0x000000 0x07200000 0x07200000 0x00000 0x02000 RW  0x1000
+  NOTE           0x3122ac 0x004112ac 0x004112ac 0x00024 0x00024 R   0x4
+
+ Section to Segment mapping:
+  Segment Sections...
+   00     .ARM.exidx 
+   01     .text .init .fini .rodata .data .drvcfg_sec .note.gnu.build-id 
+   02     .mmu_tbl .ARM.exidx .init_array .fini_array .bss .heap .stack 
+   03     .capture_history 
+   04     .trigger_history 
+   05     .wave_lod 
+   06     .gpu_commands 
+   07     .note.gnu.build-id 

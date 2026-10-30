@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "source_inputs": {
+    "software_v4_0/src/gesture_recognizer.c": "0bc01d33fcc9a3ce33a3c58992c304585128f977ae6492ebea70109662cfaab8",
+    "software_v4_0/src/capture_session.c": "abae1e6c947e4577cf94c0dab984ac014d9f44776d8e19565f59b25a71324696",
+    "software_v4_0/src/main.c": "9197ef5d6e4521c3f2d045de9a9bfed671b57a066e0e36518f594383ec347e0d",
+    "software_v4_0/include/gesture_recognizer.h": "ae85ac1407b3209c40f1c6cd5d787b6c294983403e36f80b0375f3be89bb6487",
+    "software_v4_0/include/capture_session.h": "76fb5f5846b858f7217c0d97367a954cc4b8510536cf93aa4eb4c07c942d4d4a",
+    "tests/test_v49_view_limits.c": "9c3ae106d9f3d95db8e7a714f4891bfe4e19baa41801b4f27590aaee94794c6f",
+    "scripts/test_v49_view_limits.py": "9bc865907d86f74783e9d3628948ab638dfba78de8f0c0df12a20355119a9887"
+  },
+  "scope": "Real gesture/view bounds and drain state; no board input replay",
+  "programmed": false
+}

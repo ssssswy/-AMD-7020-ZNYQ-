@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "source_inputs": {
+    "software_v4_0/include/ai_monitor.h": "705975c42e95fa376de53687a8f2c12d917d9a87e59500630b4359dfae3c4367",
+    "software_v4_0/src/ai_monitor.c": "c0d103f37d3122fb04e52cfbff2257ebf77de84debfa16838350f605aa5ab88c",
+    "software_v4_0/src/ai_monitor_main.inc": "4939b8131576fd8e5e30fd654040cacdc13a7f37c33adf43b4af903bf10624e3",
+    "tests/test_v49_ai_diagnostics.c": "c12ff35842685aed094465e2c465d6e0787cacaa967fc1edd146773e09a37364",
+    "scripts/test_v49_ai_diagnostics.py": "d839b71b11d8e0d02c88a207f7ca9c1fa9f0c4f1c1acf7a4ae0a4eba12204273",
+    "output/v49_and_ps_diag001/app.c": "e6789f4be7c49c5b5f7ef8e561d8a7a18e862ecc36668c2ce9f973b24164c4f1",
+    "software_v4_0/src/ai_evidence_report.c": "704d7e840292665c5c92bd18e2e07e427d3c4cad7f49ce629cad5779d59bbe67",
+    "software_v4_0/src/ai_monitor_alert.c": "837ad484db1cbffe2987bdc1b1c24d4c30cc2ebcaaf4654fa96b4e71ad1facae",
+    "software_v4_0/src/ai_alert.c": "2841b077558584f292a6ad3ea82d259118acb243b3fb0e28481239f4361dda6c",
+    "software_v4_0/src/ui_ai.c": "b9f2820b0d52bcf76fb331a423bc53b5402d7ce8880a7c9e49f56200f923a41b",
+    "software_v4_0/src/ui_ai_notice.c": "9ddb33c6687c9655c45de6da845b3ef28daf9cff6242b24ec8663f2468e0b2bf"
+  },
+  "scope": "Production formatter and production app/MMIO skip-only log regression; not board timing/FPS",
+  "programmed": false
+}

@@ -1,0 +1,706 @@
+{
+  "files": [
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\release\\v4.9_sliced_planner_20261030\\tracegpu_v4_9.bit",
+      "target": "fpga/build/design.bit",
+      "kind": "release",
+      "sha256": "09999b044e32ed15e8c1bc7d2462733531b55df2a4afc3e8fdb1b6649aead6fb",
+      "bytes": 4045699
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\release\\v4.9_sliced_planner_20261030\\tracegpu_v4_9.xsa",
+      "target": "fpga/build/design.xsa",
+      "kind": "release",
+      "sha256": "aa8f13573e5d0137bb61b585937f425f2cb4c4801fef4a7a649976f80c20c16e",
+      "bytes": 1793159
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\release\\v4.9_sliced_planner_20261030\\tracegpu_v4_9.elf",
+      "target": "fpga/build/application.elf",
+      "kind": "release",
+      "sha256": "05a3e3c4345db9481fcfa3aa52a92673d51e10306e7cc8df39383d085e668d2c",
+      "bytes": 5395464
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\release\\v4.9_sliced_planner_20261030\\tracegpu_v4_9.map",
+      "target": "fpga/build/application.map",
+      "kind": "release",
+      "sha256": "f75f0fee1cb5dfd44b47798ed648f706cdfd7c573fe9af7738d0a6165e4f068b",
+      "bytes": 1114294
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\release\\v4.9_sliced_planner_20261030\\TraceGPU_v4_9_sliced_planner_sources.zip",
+      "target": "fpga/src/source_snapshot.zip",
+      "kind": "release",
+      "sha256": "3cad22016c9afaccc0149675f919641c0d4921d94650bb8c6d7e7dfbebb5ce58",
+      "bytes": 84125440
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\release\\v4.9_sliced_planner_20261030\\release_manifest.json",
+      "target": "fpga/report/release_manifest.json",
+      "kind": "release",
+      "sha256": "858d6b793add8c4c3e6e698f097e6d841d916e81cb75272114c77d66a021436a",
+      "bytes": 18247
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\release\\v4.9_sliced_planner_20261030\\source_manifest.json",
+      "target": "fpga/report/source_manifest.json",
+      "kind": "release",
+      "sha256": "5dd83f6fc0676f44a55f83325fc94a2a64f8bfc4b876f63987d4260b649f31ad",
+      "bytes": 940488
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\ai_soc_49011\\bus_skew.rpt",
+      "target": "fpga/report/hardware/bus_skew.rpt",
+      "kind": "hardware_build",
+      "sha256": "d129a0e3ca9a0c52d32855f5e1309faad9d0122ad9e1ef0c58ed6dc74393fa98",
+      "bytes": 84799
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\ai_soc_49011\\cdc.rpt",
+      "target": "fpga/report/hardware/cdc.rpt",
+      "kind": "hardware_build",
+      "sha256": "865eb2b4c1d8e531691fde90f7acc7db521fa7884f8e36fb640c623369efd0c6",
+      "bytes": 1863
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\ai_soc_49011\\check_timing.rpt",
+      "target": "fpga/report/hardware/check_timing.rpt",
+      "kind": "hardware_build",
+      "sha256": "bb3921f5d40e62700a54fa9cea38c49351f9e9bb7856bc27b8867057ba8ec702",
+      "bytes": 3684
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\ai_soc_49011\\clock_interaction.rpt",
+      "target": "fpga/report/hardware/clock_interaction.rpt",
+      "kind": "hardware_build",
+      "sha256": "6140145490df77f87c97694a9d653d0d9c04b8c0fdc2567db909d5348755b1c4",
+      "bytes": 2431
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\ai_soc_49011\\drc.rpt",
+      "target": "fpga/report/hardware/drc.rpt",
+      "kind": "hardware_build",
+      "sha256": "8b6d0d106fbbd8414b187dd493ec5664bd307c4975758fa0689529759119f8f0",
+      "bytes": 200149
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\ai_soc_49011\\exceptions.rpt",
+      "target": "fpga/report/hardware/exceptions.rpt",
+      "kind": "hardware_build",
+      "sha256": "da8d481c9782db7994c67152fe215f1fc7ed93fb6e0e996f0e783bd74bc8d943",
+      "bytes": 16111
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\ai_soc_49011\\final_project_ip_status.rpt",
+      "target": "fpga/report/hardware/final_project_ip_status.rpt",
+      "kind": "hardware_build",
+      "sha256": "497ad2dc30a84a75113efb9d0cf1fefb7ebfccc099122ff0a9680eb09ae30520",
+      "bytes": 55806
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\ai_soc_49011\\hardware_status.json",
+      "target": "fpga/report/hardware/hardware_status.json",
+      "kind": "hardware_build",
+      "sha256": "e92689b7082c8173539b80ecd790c1b2cf9db91de13eb43fdfdc3bb09cb6d834",
+      "bytes": 544
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\ai_soc_49011\\io.rpt",
+      "target": "fpga/report/hardware/io.rpt",
+      "kind": "hardware_build",
+      "sha256": "9c450c35c800d34c5760437b74add3017762f2369dc15f3bee7280ae23b501db",
+      "bytes": 125500
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\ai_soc_49011\\methodology.rpt",
+      "target": "fpga/report/hardware/methodology.rpt",
+      "kind": "hardware_build",
+      "sha256": "592c98ebd9250bc072ddd73c7ca5e4c73aae18e30a4ca73dc600a5eb2bafbc79",
+      "bytes": 662136
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\ai_soc_49011\\route_status.rpt",
+      "target": "fpga/report/hardware/route_status.rpt",
+      "kind": "hardware_build",
+      "sha256": "16c91050ee5497bb2e8ca9fcc1e4d94620edefcc34218be367f52a1083766d80",
+      "bytes": 651
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\ai_soc_49011\\source_members.rpt",
+      "target": "fpga/report/hardware/source_members.rpt",
+      "kind": "hardware_build",
+      "sha256": "dfe2ed538063622d2960d2bc75af4366caa2eb01a721d1c17c1c1c66bedeb815",
+      "bytes": 194458
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\ai_soc_49011\\timing.rpt",
+      "target": "fpga/report/hardware/timing.rpt",
+      "kind": "hardware_build",
+      "sha256": "f4e0000eb13396a84c77b8fdeb4b83eac11a3538c23e929f7c194dcbbb7c6f7a",
+      "bytes": 72427
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\ai_soc_49011\\timing_paths.rpt",
+      "target": "fpga/report/hardware/timing_paths.rpt",
+      "kind": "hardware_build",
+      "sha256": "fe2ce5a95c90eb81e71f595549ebdd50a03bea15f0871760b58b3ae4d43c8f6c",
+      "bytes": 437402
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\ai_soc_49011\\tracegpu_system_v4_9.tcl",
+      "target": "fpga/report/hardware/tracegpu_system_v4_9.tcl",
+      "kind": "hardware_build",
+      "sha256": "50338920bbec9d4f3362aaf1c7360d78e816d17f680427cc7ae5d3a6ef64e58e",
+      "bytes": 85613
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\ai_soc_49011\\utilization.rpt",
+      "target": "fpga/report/hardware/utilization.rpt",
+      "kind": "hardware_build",
+      "sha256": "fe5a0fd041a081dc2d1ff9f5904d8b946f4721014e63742d05cae11ac0ab4821",
+      "bytes": 14951
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\ai_soc_49011\\utilization_hier.rpt",
+      "target": "fpga/report/hardware/utilization_hier.rpt",
+      "kind": "hardware_build",
+      "sha256": "4964c29866035e67157fb7d8a4930a6dcf7d6f1406b9649194fa42b0514758af",
+      "bytes": 105163
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\ai_soc_49011\\tracegpu_v4_9_routed.dcp",
+      "target": "fpga/build/routed.dcp",
+      "kind": "hardware_checkpoint",
+      "sha256": "2d6963087ed3c0b3ed011e74abdcaf825d6d08079744f5c5d3dd1f5ab1878368",
+      "bytes": 39505776
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\ai_software_49018\\build_report.json",
+      "target": "fpga/report/software/build_report.json",
+      "kind": "software_build",
+      "sha256": "43ec10785df64eb331a2c9257f9301587a488d9f891b39358b021101e99dcf32",
+      "bytes": 7617
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\ai_software_49018\\elf_program_headers.txt",
+      "target": "fpga/report/software/elf_program_headers.txt",
+      "kind": "software_build",
+      "sha256": "b4fcc0516226c605db438cf83a703e3ca68e89b40d500fcfd0e42c5a2700fb70",
+      "bytes": 1183
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\ai_software_49018\\elf_symbols.txt",
+      "target": "fpga/report/software/elf_symbols.txt",
+      "kind": "software_build",
+      "sha256": "229486cc4c7c8cd68279f9a97254d03dbae88f02fa3273ad10147c75715ca667",
+      "bytes": 192604
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\ai_software_49018\\source_inputs.json",
+      "target": "fpga/report/software/source_inputs.json",
+      "kind": "software_build",
+      "sha256": "80d7c116b140ac79ebb780523cbd12e24591188820680153fe2242fdfe6d9238",
+      "bytes": 30502
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\ai_software_49018\\workspace_report.json",
+      "target": "fpga/report/software/workspace_report.json",
+      "kind": "software_build",
+      "sha256": "7fac477c541155e57f7f87df590fdf54d985e2e1ec9aa7778bceb8225f28e392",
+      "bytes": 608
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\evidence\\v49_selected_implementation.json",
+      "target": "fpga/report/evidence/v49_selected_implementation.json",
+      "kind": "historical_evidence",
+      "sha256": "efb65d588fe784c14c4d6465528d08b74227e12c0e11f69f8f19c4cc090a7970",
+      "bytes": 2284
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\evidence\\v49_selected_model_check.json",
+      "target": "fpga/report/evidence/v49_selected_model_check.json",
+      "kind": "historical_evidence",
+      "sha256": "c8a7c61847de926b9beabecddc38dfc03d5d8c65dd433fe78dd6ff349a26fe50",
+      "bytes": 302
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\evidence\\v49_registered_validation.json",
+      "target": "fpga/report/evidence/v49_registered_validation.json",
+      "kind": "historical_evidence",
+      "sha256": "d1c484b18e6f44311e95b1b6772a363b9cd415b2f59c77de0270b877d5ac6037",
+      "bytes": 766
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\evidence\\v49_delivery_verification.json",
+      "target": "fpga/report/evidence/v49_delivery_verification.json",
+      "kind": "historical_evidence",
+      "sha256": "d63766f48d3f236afdc631ac10c622aecdf67d5b9c9c8f0b573a0f5860274df8",
+      "bytes": 921
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\evidence\\v49_gpu_feed_comparison.json",
+      "target": "fpga/report/evidence/v49_gpu_feed_comparison.json",
+      "kind": "historical_evidence",
+      "sha256": "d759597802eae472d68566728a84541533afc79cb12b31aad2bd555478d0a912",
+      "bytes": 610
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\evidence\\v49_sliced_planner\\scope.json",
+      "target": "fpga/report/evidence/sliced_scope.json",
+      "kind": "software_evidence",
+      "sha256": "e8530fe470d6a454bb371d482612c4fd52906863584db4cceb13c4d42050a565",
+      "bytes": 2119
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_sliced_planner_final003\\compile.log",
+      "target": "metrics/logs/v49_sliced_planner_final003/compile.log",
+      "kind": "host_regression",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_sliced_planner_final003\\result.json",
+      "target": "metrics/logs/v49_sliced_planner_final003/result.json",
+      "kind": "host_regression",
+      "sha256": "3034d02af98e4209790335497467bd3475c1d4a90ca14ff17127b38457732a71",
+      "bytes": 18542
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_sliced_planner_final003\\run.log",
+      "target": "metrics/logs/v49_sliced_planner_final003/run.log",
+      "kind": "host_regression",
+      "sha256": "97566cde1005ab984b47bf7a7cdd70fc0bd646a5aa4fabbc04d0054d63492c85",
+      "bytes": 349
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_gpu_scheduler_slicedfinal003\\compile.log",
+      "target": "metrics/logs/v49_gpu_scheduler_slicedfinal003/compile.log",
+      "kind": "host_regression",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_gpu_scheduler_slicedfinal003\\result.json",
+      "target": "metrics/logs/v49_gpu_scheduler_slicedfinal003/result.json",
+      "kind": "host_regression",
+      "sha256": "aabbef370746036acd3eda8ea77fcebac6c091e86d277f65db9baef7c93048a8",
+      "bytes": 6994
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_gpu_scheduler_slicedfinal003\\run.log",
+      "target": "metrics/logs/v49_gpu_scheduler_slicedfinal003/run.log",
+      "kind": "host_regression",
+      "sha256": "106c9b3aa587f50d1eca6d264c6ca8a0501ac314e7a7ef5b4d305d93fade279f",
+      "bytes": 3728
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_and_ui_slicedfinal003\\compile.log",
+      "target": "metrics/logs/v49_and_ui_slicedfinal003/compile.log",
+      "kind": "host_regression",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_and_ui_slicedfinal003\\result.json",
+      "target": "metrics/logs/v49_and_ui_slicedfinal003/result.json",
+      "kind": "host_regression",
+      "sha256": "65b3c01dbc91669457363d18c4f9fa10c7fbb97135905545ae4b2aa12ab2e380",
+      "bytes": 34994
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_and_ui_slicedfinal003\\run.log",
+      "target": "metrics/logs/v49_and_ui_slicedfinal003/run.log",
+      "kind": "host_regression",
+      "sha256": "48c3caf078559d2a985026567491eeef55c667c7a94ec61942af8bd982e18e42",
+      "bytes": 1746
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_and_ps_slicedfinal003\\ai_alert_arm.log",
+      "target": "metrics/logs/v49_and_ps_slicedfinal003/ai_alert_arm.log",
+      "kind": "host_regression",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_and_ps_slicedfinal003\\ai_evidence_report_arm.log",
+      "target": "metrics/logs/v49_and_ps_slicedfinal003/ai_evidence_report_arm.log",
+      "kind": "host_regression",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_and_ps_slicedfinal003\\ai_monitor_alert_arm.log",
+      "target": "metrics/logs/v49_and_ps_slicedfinal003/ai_monitor_alert_arm.log",
+      "kind": "host_regression",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_and_ps_slicedfinal003\\ai_monitor_arm.log",
+      "target": "metrics/logs/v49_and_ps_slicedfinal003/ai_monitor_arm.log",
+      "kind": "host_regression",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_and_ps_slicedfinal003\\ai_trigger_config_arm.log",
+      "target": "metrics/logs/v49_and_ps_slicedfinal003/ai_trigger_config_arm.log",
+      "kind": "host_regression",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_and_ps_slicedfinal003\\app_compile.log",
+      "target": "metrics/logs/v49_and_ps_slicedfinal003/app_compile.log",
+      "kind": "host_regression",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_and_ps_slicedfinal003\\app_run.log",
+      "target": "metrics/logs/v49_and_ps_slicedfinal003/app_run.log",
+      "kind": "host_regression",
+      "sha256": "ef3d8f1cc93f8eb51e40bd5c06c81734af7ea38f2bd569727b635e00df639a3f",
+      "bytes": 141
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_and_ps_slicedfinal003\\driver_compile.log",
+      "target": "metrics/logs/v49_and_ps_slicedfinal003/driver_compile.log",
+      "kind": "host_regression",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_and_ps_slicedfinal003\\driver_run.log",
+      "target": "metrics/logs/v49_and_ps_slicedfinal003/driver_run.log",
+      "kind": "host_regression",
+      "sha256": "2cfe49800bfa7fca8019031d6d12b0e138296e23f55ba056aaec02ffb066f901",
+      "bytes": 134
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_and_ps_slicedfinal003\\main_arm.log",
+      "target": "metrics/logs/v49_and_ps_slicedfinal003/main_arm.log",
+      "kind": "host_regression",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_and_ps_slicedfinal003\\monitor_compile.log",
+      "target": "metrics/logs/v49_and_ps_slicedfinal003/monitor_compile.log",
+      "kind": "host_regression",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_and_ps_slicedfinal003\\monitor_run.log",
+      "target": "metrics/logs/v49_and_ps_slicedfinal003/monitor_run.log",
+      "kind": "host_regression",
+      "sha256": "9ff3d1066ad6942c0227836ad75d73b29971a219b0240b5848657ff82553c205",
+      "bytes": 113
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_and_ps_slicedfinal003\\result.json",
+      "target": "metrics/logs/v49_and_ps_slicedfinal003/result.json",
+      "kind": "host_regression",
+      "sha256": "4c5a1ae12f7df74d77d696b28a6d26fbd790c786640018915403c6d02cb5dc36",
+      "bytes": 36008
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_and_ps_slicedfinal003\\ui_ai_evidence_arm.log",
+      "target": "metrics/logs/v49_and_ps_slicedfinal003/ui_ai_evidence_arm.log",
+      "kind": "host_regression",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_and_ps_slicedfinal003\\ui_ai_notice_arm.log",
+      "target": "metrics/logs/v49_and_ps_slicedfinal003/ui_ai_notice_arm.log",
+      "kind": "host_regression",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_and_ps_slicedfinal003\\ui_navigation_arm.log",
+      "target": "metrics/logs/v49_and_ps_slicedfinal003/ui_navigation_arm.log",
+      "kind": "host_regression",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_and_ps_slicedfinal003\\ui_workbench_arm.log",
+      "target": "metrics/logs/v49_and_ps_slicedfinal003/ui_workbench_arm.log",
+      "kind": "host_regression",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_view_limits_slicedfinal002\\result.json",
+      "target": "metrics/logs/v49_view_limits_slicedfinal002/result.json",
+      "kind": "host_regression",
+      "sha256": "26477eca16350590cc9e4da47540cb84bd9b8cbc2da2f00163934efe5af06e7d",
+      "bytes": 928
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_view_limits_slicedfinal002\\session_compile.log",
+      "target": "metrics/logs/v49_view_limits_slicedfinal002/session_compile.log",
+      "kind": "host_regression",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_view_limits_slicedfinal002\\session_run.log",
+      "target": "metrics/logs/v49_view_limits_slicedfinal002/session_run.log",
+      "kind": "host_regression",
+      "sha256": "6fec0a49a3cb64f4440149d2a4e4a6c7a4c8aa933441d9d6c8a3a6086d7678dd",
+      "bytes": 131
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_view_limits_slicedfinal002\\view_compile.log",
+      "target": "metrics/logs/v49_view_limits_slicedfinal002/view_compile.log",
+      "kind": "host_regression",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_view_limits_slicedfinal002\\view_run.log",
+      "target": "metrics/logs/v49_view_limits_slicedfinal002/view_run.log",
+      "kind": "host_regression",
+      "sha256": "abd4c3ae6196219f7fb88c169e5909330086f39f605b3fc7616f416d6ac4dd3f",
+      "bytes": 91
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_ai_diagnostics_slicedfinal002\\app_compile.log",
+      "target": "metrics/logs/v49_ai_diagnostics_slicedfinal002/app_compile.log",
+      "kind": "host_regression",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_ai_diagnostics_slicedfinal002\\app_run.log",
+      "target": "metrics/logs/v49_ai_diagnostics_slicedfinal002/app_run.log",
+      "kind": "host_regression",
+      "sha256": "4cb604b8cdb34a7423c0e370420afc1a3c342db95b80a266779f95d010ee0435",
+      "bytes": 140
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_ai_diagnostics_slicedfinal002\\compile.log",
+      "target": "metrics/logs/v49_ai_diagnostics_slicedfinal002/compile.log",
+      "kind": "host_regression",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_ai_diagnostics_slicedfinal002\\result.json",
+      "target": "metrics/logs/v49_ai_diagnostics_slicedfinal002/result.json",
+      "kind": "host_regression",
+      "sha256": "82821e0a36c2788b98ec3b90c3cd4343a58cdf3dd753557e60d0688359d78040",
+      "bytes": 1383
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_ai_diagnostics_slicedfinal002\\run.log",
+      "target": "metrics/logs/v49_ai_diagnostics_slicedfinal002/run.log",
+      "kind": "host_regression",
+      "sha256": "c4bca689a0c1481fc37709ff7c352790e75fabbbbf3124edda8e10364b8a45cb",
+      "bytes": 539
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_detection_pc_20261030_002\\compile.log",
+      "target": "metrics/logs/v49_detection_pc_20261030_002/compile.log",
+      "kind": "pc_offline_reference",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_detection_pc_20261030_002\\edge_events.txt",
+      "target": "metrics/logs/v49_detection_pc_20261030_002/edge_events.txt",
+      "kind": "pc_offline_reference",
+      "sha256": "b085e1a55c69d0bd3412d90cd1fa45e223a565d9ec82d4a78edb0e05406251b6",
+      "bytes": 141701
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_detection_pc_20261030_002\\edge_inputs.txt",
+      "target": "metrics/logs/v49_detection_pc_20261030_002/edge_inputs.txt",
+      "kind": "pc_offline_reference",
+      "sha256": "56d966741fae6a80558ab4e61e3c6b87e3d2dc4b850afe23b0406e68688eb749",
+      "bytes": 9250094
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_detection_pc_20261030_002\\edge_reference.c",
+      "target": "metrics/logs/v49_detection_pc_20261030_002/edge_reference.c",
+      "kind": "pc_offline_reference",
+      "sha256": "e90b471afbcde3dbeccc323a5fa3e29c8104b464efcb096acce75a44f1be7c19",
+      "bytes": 2148
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_detection_pc_20261030_002\\global_decision.log",
+      "target": "metrics/logs/v49_detection_pc_20261030_002/global_decision.log",
+      "kind": "pc_offline_reference",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_detection_pc_20261030_002\\global_decisions.bin",
+      "target": "metrics/logs/v49_detection_pc_20261030_002/global_decisions.bin",
+      "kind": "pc_offline_reference",
+      "sha256": "2789a4da802f01ef38ed764b48feb36a04b9d84b1e641a8b7464271a49869942",
+      "bytes": 15604
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_detection_pc_20261030_002\\global_logits.bin",
+      "target": "metrics/logs/v49_detection_pc_20261030_002/global_logits.bin",
+      "kind": "pc_offline_reference",
+      "sha256": "89ea1ae1f7703dbef3e340252990656e32fb0e860566dfa86ed5679da115d777",
+      "bytes": 23404
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_detection_pc_20261030_002\\per_type.csv",
+      "target": "metrics/logs/v49_detection_pc_20261030_002/per_type.csv",
+      "kind": "pc_offline_reference",
+      "sha256": "a6a333b2c17b6d80aa0e56412dc721891a43b33d47a93f50add68236aa62d45c",
+      "bytes": 3151
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_detection_pc_20261030_002\\predictions.npz",
+      "target": "metrics/logs/v49_detection_pc_20261030_002/predictions.npz",
+      "kind": "pc_offline_reference",
+      "sha256": "5f4563b367573a71a0de92efdcc185d0f892e8ace03fa622d122276d5b73e85f",
+      "bytes": 1315
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_detection_pc_20261030_002\\report_review.json",
+      "target": "metrics/logs/v49_detection_pc_20261030_002/report_review.json",
+      "kind": "pc_offline_reference",
+      "sha256": "39006e021dd5529c69cff942587450546abad5a128c3fcdd97c4e9351d6b3ada",
+      "bytes": 481
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_detection_pc_20261030_002\\result.json",
+      "target": "metrics/logs/v49_detection_pc_20261030_002/result.json",
+      "kind": "pc_offline_reference",
+      "sha256": "cd8358c27d612e4869393ffd53a27faca6b635a88a274959ff5352a7e475ae1e",
+      "bytes": 29836
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_detection_pc_20261030_002\\setup_hold_events.txt",
+      "target": "metrics/logs/v49_detection_pc_20261030_002/setup_hold_events.txt",
+      "kind": "pc_offline_reference",
+      "sha256": "2dee9782e3963b683c6162e32d4ecf416a0249e0aa5cae53b5fd64c9efb62bbc",
+      "bytes": 6504
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_detection_pc_20261030_002\\setup_hold_inputs.txt",
+      "target": "metrics/logs/v49_detection_pc_20261030_002/setup_hold_inputs.txt",
+      "kind": "pc_offline_reference",
+      "sha256": "b65c956a1dc9bafa658b1008d720e14836319746ac3aa8b902b6f95245425d89",
+      "bytes": 784677
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_detection_pc_20261030_002\\setup_hold_result.json",
+      "target": "metrics/logs/v49_detection_pc_20261030_002/setup_hold_result.json",
+      "kind": "pc_offline_reference",
+      "sha256": "aacc6cdd066f8aeda09244bd024272c620ce715d0a4e1b4ae50ca8bcb2816959",
+      "bytes": 349
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_detection_pc_20261030_002\\uart_cnn_rules_combined.csv",
+      "target": "metrics/logs/v49_detection_pc_20261030_002/uart_cnn_rules_combined.csv",
+      "kind": "pc_offline_reference",
+      "sha256": "83aadb53e9cfb22e5b083db36bd4773fa3fde8b3f049dc7dbe09e998a06364e3",
+      "bytes": 1951
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_detection_pc_20261030_002\\uart_correct_type.json",
+      "target": "metrics/logs/v49_detection_pc_20261030_002/uart_correct_type.json",
+      "kind": "pc_offline_reference",
+      "sha256": "88aa4f5efd1fddab093dece4f9b671e5abccabbbb68908d894d2623e6b03b1f0",
+      "bytes": 500
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_detection_pc_20261030_002\\uart_global_logits.json",
+      "target": "metrics/logs/v49_detection_pc_20261030_002/uart_global_logits.json",
+      "kind": "pc_offline_reference",
+      "sha256": "7be3e28351b51b7e9fafbf84985d0b6aec9f4aa185522730f3749e1accdbef82",
+      "bytes": 36
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_detection_pc_20261030_002\\uart_token_diagnostics.npz",
+      "target": "metrics/logs/v49_detection_pc_20261030_002/uart_token_diagnostics.npz",
+      "kind": "pc_offline_reference",
+      "sha256": "cd33bd8f3bd5d53c9184789324351f21dac3080359b1e95f8e42bfd6657bd1b1",
+      "bytes": 137579
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_detection_pc_20261030_002\\verification.json",
+      "target": "metrics/logs/v49_detection_pc_20261030_002/verification.json",
+      "kind": "pc_offline_reference",
+      "sha256": "29742c0b9f3d7ac4852149bbe6352bf5814f598dbce6fd22b95686e8a71b6acc",
+      "bytes": 9381
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\output\\v49_detection_pc_20261030_002\\writing_scope.json",
+      "target": "metrics/logs/v49_detection_pc_20261030_002/writing_scope.json",
+      "kind": "pc_offline_reference",
+      "sha256": "646830ce8a71fc70ae170e2198fe18b8f0d789771d46d967e1579163e1559e2a",
+      "bytes": 241
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\scripts\\summarize_v49_detection_pc.py",
+      "target": "metrics/scripts/summarize_v49_detection_pc.py",
+      "kind": "test_script",
+      "sha256": "c5b7225598a77c8b33d1066c406e76d2bbca6c65f02db2e002f44b3fea6e0abc",
+      "bytes": 2354
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\scripts\\evaluate_v49_detection_pc.py",
+      "target": "metrics/scripts/evaluate_v49_detection_pc.py",
+      "kind": "test_script",
+      "sha256": "28f1d248ac1aed2f1b3238195eaa8ce46506117d431515055528d38a8cb9b402",
+      "bytes": 5880
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\scripts\\test_v49_sliced_planner.py",
+      "target": "metrics/scripts/test_v49_sliced_planner.py",
+      "kind": "test_script",
+      "sha256": "0918485cbd64b21ad29adcf300fc6c2480beca1301abe6b07513156df09047fa",
+      "bytes": 2652
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\scripts\\test_v49_gpu_scheduler.py",
+      "target": "metrics/scripts/test_v49_gpu_scheduler.py",
+      "kind": "test_script",
+      "sha256": "9260ae6c438d2686572a94888b9a2d8008ec6b07e8375caf846552b945df95d7",
+      "bytes": 2374
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\scripts\\test_v49_and_ui.py",
+      "target": "metrics/scripts/test_v49_and_ui.py",
+      "kind": "test_script",
+      "sha256": "c191dfe10af507b4a085e8fa21cb79c2f2ab87fa32953c1b1a41428abc27c444",
+      "bytes": 5389
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\scripts\\test_v49_and_ps.py",
+      "target": "metrics/scripts/test_v49_and_ps.py",
+      "kind": "test_script",
+      "sha256": "ac53cefdb5395b7569295c7a1b150aa0599f341ee9cabc22c519b059182b9413",
+      "bytes": 6070
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\scripts\\test_v49_view_limits.py",
+      "target": "metrics/scripts/test_v49_view_limits.py",
+      "kind": "test_script",
+      "sha256": "9bc865907d86f74783e9d3628948ab638dfba78de8f0c0df12a20355119a9887",
+      "bytes": 1740
+    },
+    {
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.9_full\\scripts\\test_v49_ai_diagnostics.py",
+      "target": "metrics/scripts/test_v49_ai_diagnostics.py",
+      "kind": "test_script",
+      "sha256": "d839b71b11d8e0d02c88a207f7ca9c1fa9f0c4f1c1acf7a4ae0a4eba12204273",
+      "bytes": 4063
+    }
+  ],
+  "programmed": false,
+  "board_accepted": false
+}

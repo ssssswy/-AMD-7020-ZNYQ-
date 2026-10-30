@@ -1,0 +1,1 @@
+PASS session drain: legacy fresh four tails; vector END, exact sequence, FIFO empty, quiet window, loss, never-started and timeout

@@ -1,0 +1,20 @@
+{
+  "members": 7800,
+  "required_members_found": [
+    "README_v4_9.md",
+    "scripts/run_v49_cold.py",
+    "scripts/run_v49_software.py",
+    "scripts/rebase_v47_fonts.py",
+    "ip_repo/trigger_v49_validated/component.xml",
+    "src/ai/v49_compare/tg_ai_agreement.sv",
+    "software_v4_0/assets/fonts/tracegpu_font_ui_regular_16.tgf"
+  ],
+  "unsafe_member_names": 0,
+  "non_english_or_uppercase_or_spaces": 57,
+  "zip_crc_checked": true,
+  "archive_contains_history": true,
+  "independent_full_rebuild": false,
+  "source_manifest_members_verified": 7800,
+  "source_manifest_mismatches": 0,
+  "release_archive_hash_match": true
+}

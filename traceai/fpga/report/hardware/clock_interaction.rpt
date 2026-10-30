@@ -1,0 +1,26 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Fri Oct 30 10:04:23 2026
+| Host         : LAPTOP-FINEV8VO running 64-bit major release  (build 9200)
+| Command      : report_clock_interaction -file D:/FPGA_gpu/TraceGPU_2025_2/v4.9_full/output/ai_soc_49011/clock_interaction.rpt
+| Design       : tracegpu_system_wrapper
+| Device       : 7z020-clg400
+| Speed File   : -2  PRODUCTION 1.12 2019-11-22
+| Design State : Physopt postRoute
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Clock Interaction Report
+
+Clock Interaction Table
+-----------------------
+
+                                                                                    WNS                            TNS Failing  TNS Total    WNS Path         Clock-Pair           Inter-Clock              
+From Clock                                To Clock                                  Clock Edges  WNS(ns)  TNS(ns)    Endpoints    Endpoints  Requirement(ns)  Classification       Constraints              
+----------------------------------------  ----------------------------------------  -----------  -------  -------  -----------  -----------  ---------------  -------------------  -----------------------  
+clk_fpga_0                                clk_fpga_0                                rise - rise     0.02     0.00            0       153450            10.00  Clean                Partial False Path       
+clk_fpga_0                                clk_out1_tracegpu_system_clk_pixel_25m_0  rise - rise     8.14     0.00            0           22            10.00  Ignored              Max Delay Datapath Only  
+clk_out1_tracegpu_system_clk_pixel_25m_0  clk_fpga_0                                rise - rise    38.24     0.00            0           23            40.00  Ignored              Max Delay Datapath Only  
+clk_out1_tracegpu_system_clk_pixel_25m_0  clk_out1_tracegpu_system_clk_pixel_25m_0  rise - rise    32.74     0.00            0          836            40.00  Clean                Timed                    
+
+

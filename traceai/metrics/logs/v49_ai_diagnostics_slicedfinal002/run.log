@@ -1,0 +1,4 @@
+AI49 coverage epoch=15 cfg=29 checked=4294967295 skip=18446744073709551615 failed=4294967295 samples=18446744073709551615 sample_drop=18446744073709551615 result_drop=4294967295 rule_drop=4294967295 queue=0 status=0x00000390 partial=1 ps_error=0
+AI49 timing engine_valid=1 engine_cycles=4294967295 engine_us=42949672.95 tail_reject=NA tail_reason=not_in_last_error last_error=0x17 scope=last_completed_window
+
+V49_AI_DIAGNOSTICS_PASS zero skip_only unchanged tails_1_to_6 other_error timing rules_only u64 timer_wrap truncation identity

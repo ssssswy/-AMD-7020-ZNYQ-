@@ -1,0 +1,275 @@
+{
+  "scope": "Selected files copied byte for byte; archive references can include historical paths or retired model metadata.",
+  "files": [
+    {
+      "source": "project/model/v46_uart/canonical_layers.vh",
+      "target": "host/model/uart_rom/canonical_layers.vh",
+      "sha256": "7d690426d94ec90b050c5b0436bae546c97b089d34d5a1f979643ba0ac6e5d97",
+      "bytes": 1793
+    },
+    {
+      "source": "project/model/v46_uart/canonical_weights.mem",
+      "target": "host/model/uart_rom/canonical_weights.mem",
+      "sha256": "5a48199721e030faf5cd69993b4ddd529577d260b609e7feb3585e5a4c623b5a",
+      "bytes": 68432
+    },
+    {
+      "source": "project/model/v46_uart/global_decision.mem",
+      "target": "host/model/uart_rom/global_decision.mem",
+      "sha256": "ad664c78a9a2b20a7242f09eab8b1dbb7446a6c5bbb66415cff8942c20eb5778",
+      "bytes": 28672
+    },
+    {
+      "source": "project/model/v46_uart/lane_0.mem",
+      "target": "host/model/uart_rom/lane_0.mem",
+      "sha256": "176cff48e3200d7257913da9ef271e654389b2ba7af5a69424148b9a516eba9d",
+      "bytes": 8192
+    },
+    {
+      "source": "project/model/v46_uart/lane_1.mem",
+      "target": "host/model/uart_rom/lane_1.mem",
+      "sha256": "1def2fcc1d74d254215d779418fe918751f1b7b11ec32c88b1485440a875912f",
+      "bytes": 8192
+    },
+    {
+      "source": "project/model/v46_uart/lane_2.mem",
+      "target": "host/model/uart_rom/lane_2.mem",
+      "sha256": "1c666db9d2a24fa4be8d3b93101e4696a2a3440723e602e5a75e77448b510489",
+      "bytes": 8192
+    },
+    {
+      "source": "project/model/v46_uart/lane_3.mem",
+      "target": "host/model/uart_rom/lane_3.mem",
+      "sha256": "1e163e725f1e220294de7ad134ec3582eba904874a9bbee88ac819882a7541b1",
+      "bytes": 8192
+    },
+    {
+      "source": "project/model/v46_uart/lane_4.mem",
+      "target": "host/model/uart_rom/lane_4.mem",
+      "sha256": "cf651398c0abdc6926c8fb935d025ccb970d4c6546d914ff740058274288b339",
+      "bytes": 8192
+    },
+    {
+      "source": "project/model/v46_uart/lane_5.mem",
+      "target": "host/model/uart_rom/lane_5.mem",
+      "sha256": "c6b24214de8843daaedf81a72f153fa9c6d6572cb98c07018e1985aafdfc89b0",
+      "bytes": 8192
+    },
+    {
+      "source": "project/model/v46_uart/lane_6.mem",
+      "target": "host/model/uart_rom/lane_6.mem",
+      "sha256": "6cda24d59c3f90eb5d99eda99935b12fddcaac2cec8ff7358dc32c36edcff56c",
+      "bytes": 8192
+    },
+    {
+      "source": "project/model/v46_uart/lane_7.mem",
+      "target": "host/model/uart_rom/lane_7.mem",
+      "sha256": "b6346f3271569e7210bbbc31f7438f8f5f2253f9b80aa4d5d3be9ed0048b9d92",
+      "bytes": 8192
+    },
+    {
+      "source": "project/model/v46_uart/lane_8.mem",
+      "target": "host/model/uart_rom/lane_8.mem",
+      "sha256": "948d238f92e13a992f364479346c935e216239de6d292e89f17aa7c49bc756fa",
+      "bytes": 8192
+    },
+    {
+      "source": "project/model/v46_uart/lane_9.mem",
+      "target": "host/model/uart_rom/lane_9.mem",
+      "sha256": "9416d5ccb4d9ce77db50839573782173bbb986d0f0183f537db199d16f86653f",
+      "bytes": 8192
+    },
+    {
+      "source": "project/model/v46_uart/lane_a.mem",
+      "target": "host/model/uart_rom/lane_a.mem",
+      "sha256": "673ea06097c03e59ad4407da5d0080040c82f859c0912db31a9934d6a4ad465d",
+      "bytes": 8192
+    },
+    {
+      "source": "project/model/v46_uart/lane_b.mem",
+      "target": "host/model/uart_rom/lane_b.mem",
+      "sha256": "2cea2fc53dd19d42359f9b67b1311058f2385cf9c3ef35b0c46afa4fe5c69338",
+      "bytes": 8192
+    },
+    {
+      "source": "project/model/v46_uart/lane_c.mem",
+      "target": "host/model/uart_rom/lane_c.mem",
+      "sha256": "2cee5e8b3b325edcf43d910317a722cec2ac7bfbee7d592f7c7ae0246e594de7",
+      "bytes": 8192
+    },
+    {
+      "source": "project/model/v46_uart/lane_d.mem",
+      "target": "host/model/uart_rom/lane_d.mem",
+      "sha256": "090703dbd3b5f135e65462b5cebce1c38c341eb3cc27f72b07e1ce4f9da4ad50",
+      "bytes": 8192
+    },
+    {
+      "source": "project/model/v46_uart/lane_e.mem",
+      "target": "host/model/uart_rom/lane_e.mem",
+      "sha256": "49e87983e623456933379a25ef54a8070cd50dcaa9487333bcfb13fe46ca879a",
+      "bytes": 8192
+    },
+    {
+      "source": "project/model/v46_uart/lane_f.mem",
+      "target": "host/model/uart_rom/lane_f.mem",
+      "sha256": "a77495ba5f6245b3b222a95d5fcdfc049994c22253cdbece1d629b384aa1938d",
+      "bytes": 8192
+    },
+    {
+      "source": "project/model/v46_uart/manifest.json",
+      "target": "host/model/uart_rom/manifest.json",
+      "sha256": "36c493265e7ee9e9622ba06139cb4c47d2d84e6fc67a9eb22ab36f628c6933f7",
+      "bytes": 2226
+    },
+    {
+      "source": "project/model/v46_uart/params.mem",
+      "target": "host/model/uart_rom/params.mem",
+      "sha256": "2741b0f4f47f3e56cccfb4ac1b7c0cedfa46444aa285d3efd2bf105673ecd76a",
+      "bytes": 3072
+    },
+    {
+      "source": "project/model/r11/anchor.npz",
+      "target": "host/model/historical_reference/anchor.npz",
+      "sha256": "b9ee8ae1a1349dcaf39a7156baed71ee0250e3998e1856e76a63ff703161442e",
+      "bytes": 11360
+    },
+    {
+      "source": "project/model/r11/global.npz",
+      "target": "host/model/historical_reference/global.npz",
+      "sha256": "d0ef65c16a9b1b7de19a6b0be9e437e6c4b62a92ea823786c3ebd0d338c00b65",
+      "bytes": 19384
+    },
+    {
+      "source": "project/model/r11/parity.npz",
+      "target": "host/model/historical_reference/parity.npz",
+      "sha256": "e33b3d884015174e91b7b2c352953a9a4e27616be56cc5fc3cdce98653acae50",
+      "bytes": 15236
+    },
+    {
+      "source": "project/model/r11/stop.npz",
+      "target": "host/model/historical_reference/stop.npz",
+      "sha256": "11760166204f5449065659cd8aca1c7e7ea195d8a5105983e8cbca746a9063f7",
+      "bytes": 7564
+    },
+    {
+      "source": "project/model/r11/manifest.json",
+      "target": "host/model/historical_reference/manifest.json",
+      "sha256": "7b4bce0c47ba92325cd3fbe0dd8d4f6f6e2bcc3f86dcae06c9e17ac1831b307d",
+      "bytes": 4340
+    },
+    {
+      "source": "project/model/r11/weights.mem",
+      "target": "host/model/historical_reference/weights.mem",
+      "sha256": "cd1ba5667ec2926fc3f06ac14583433f2fec467862a8ee94dea6daa760a7946a",
+      "bytes": 131072
+    },
+    {
+      "source": "project/model/r11/params.mem",
+      "target": "host/model/historical_reference/params.mem",
+      "sha256": "049df6a6f936af837f1e01579855733203f160bc761d3c5c7f9cf752045fd549",
+      "bytes": 3072
+    },
+    {
+      "source": "project/scripts/evaluate_v49_detection_pc.py",
+      "target": "host/app/evaluate_v49_detection_pc.py",
+      "sha256": "28f1d248ac1aed2f1b3238195eaa8ce46506117d431515055528d38a8cb9b402",
+      "bytes": 5880
+    },
+    {
+      "source": "archived_corpus/datasets/manifest.json",
+      "target": "host/app/sealed_reference/datasets/manifest.json",
+      "sha256": "a1213274a75eee77b45a213d4082411ed28411834ea7e49dc9f0e0e588c7a1b7",
+      "bytes": 107540
+    },
+    {
+      "source": "archived_corpus/datasets/observed_config.jsonl",
+      "target": "host/app/sealed_reference/datasets/observed_config.jsonl",
+      "sha256": "7bc442e10be55622b235704a764db60e5bdae5cbb295ee5c52504c4353adea17",
+      "bytes": 1632630
+    },
+    {
+      "source": "archived_corpus/datasets/raw.npz",
+      "target": "host/app/sealed_reference/datasets/raw.npz",
+      "sha256": "74879fab8fcc51a337600a9b5472ce2177cb1fe848511acccc98683d52a5e293",
+      "bytes": 309139
+    },
+    {
+      "source": "archived_corpus/datasets/truth.jsonl",
+      "target": "host/app/sealed_reference/datasets/truth.jsonl",
+      "sha256": "269d49dea896713ea118c07f0e1df6f3aba484d0474c03c0836e529eeb6ee429",
+      "bytes": 3821944
+    },
+    {
+      "source": "archived_corpus/features/manifest.json",
+      "target": "host/app/sealed_reference/features/manifest.json",
+      "sha256": "ccf3182e3c65e772c391f6bb79b936d0f71761939ee4d2073ccfc2d8e3f89477",
+      "bytes": 901
+    },
+    {
+      "source": "archived_corpus/features/uart.npz",
+      "target": "host/app/sealed_reference/features/uart.npz",
+      "sha256": "0958eab6ec8813922bc7fb47645194eb1f7d5efde91a81ad7f96b76cbbb9cc1e",
+      "bytes": 883839
+    },
+    {
+      "source": "archived_corpus/scripts/common.py",
+      "target": "host/app/sealed_reference/scripts/common.py",
+      "sha256": "21b8df05c696fbca0406e0296ceb13ec7d8c8cfbb884cdd02772c42e47632455",
+      "bytes": 2200
+    },
+    {
+      "source": "archived_corpus/scripts/evaluate.py",
+      "target": "host/app/sealed_reference/scripts/evaluate.py",
+      "sha256": "b85ed00f7b4f142db52ab73051168660dd397f345c11d42e1522395c399abb3c",
+      "bytes": 8275
+    },
+    {
+      "source": "archived_corpus/scripts/features.py",
+      "target": "host/app/sealed_reference/scripts/features.py",
+      "sha256": "7e1bbc2918c24b8af856a68256b8dd9d50bc281e33f3fed8714c36f03ededba7",
+      "bytes": 2970
+    },
+    {
+      "source": "archived_corpus/scripts/feature_reference.c",
+      "target": "host/app/sealed_reference/scripts/feature_reference.c",
+      "sha256": "357a81b976bdaad40578f66edd5497e0dd77dd448f8b4b022d19ed71a93ea51c",
+      "bytes": 2877
+    },
+    {
+      "source": "archived_corpus/scripts/generate.py",
+      "target": "host/app/sealed_reference/scripts/generate.py",
+      "sha256": "91272f3fce5d3b5fe7d1c9780cdbe63416fcd3fe4734290ceb7c06453e207b95",
+      "bytes": 14330
+    },
+    {
+      "source": "archived_corpus/scripts/integer_model.py",
+      "target": "host/app/sealed_reference/scripts/integer_model.py",
+      "sha256": "76d005039889d91af6c63584743dbf142c168a1ff83010bf4d720164db1c5017",
+      "bytes": 3597
+    },
+    {
+      "source": "archived_corpus/scripts/report.py",
+      "target": "host/app/sealed_reference/scripts/report.py",
+      "sha256": "aaca5bed4cd770b3d68405837af5ea8931403b93301d75f31862f1f3a282be2b",
+      "bytes": 23868
+    },
+    {
+      "source": "archived_corpus/scripts/rules.py",
+      "target": "host/app/sealed_reference/scripts/rules.py",
+      "sha256": "e6468374356f8db241cd09d4c1cdc09a752e5911152afea2a918a981781ea1f9",
+      "bytes": 5839
+    },
+    {
+      "source": "archived_corpus/scripts/test_rules.py",
+      "target": "host/app/sealed_reference/scripts/test_rules.py",
+      "sha256": "0ef3639b78ce247f228e175d47049397a90ea5d7c88ae19eae27a77e4027dc02",
+      "bytes": 2318
+    },
+    {
+      "source": "archived_corpus/experiment.json",
+      "target": "host/app/sealed_reference/experiment.json",
+      "sha256": "a176529d043b82e6616afdfb07873506efa886e7caaf862e4a94ea6bf363d120",
+      "bytes": 1143
+    }
+  ]
+}

@@ -1,0 +1,763 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Fri Oct 30 10:03:29 2026
+| Host         : LAPTOP-FINEV8VO running 64-bit major release  (build 9200)
+| Command      : report_timing_summary -file D:/FPGA_gpu/TraceGPU_2025_2/v4.9_full/output/ai_soc_49011/timing.rpt
+| Design       : tracegpu_system_wrapper
+| Device       : 7z020-clg400
+| Speed File   : -2  PRODUCTION 1.12 2019-11-22
+| Design State : Physopt postRoute
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Summary Report
+
+------------------------------------------------------------------------------------------------
+| Timer Settings
+| --------------
+------------------------------------------------------------------------------------------------
+
+  Enable Multi Corner Analysis               :  Yes
+  Enable Pessimism Removal                   :  Yes
+  Pessimism Removal Resolution               :  Nearest Common Node
+  Enable Input Delay Default Clock           :  No
+  Enable Preset / Clear Arcs                 :  No
+  Disable Flight Delays                      :  No
+  Ignore I/O Paths                           :  No
+  Timing Early Launch at Borrowing Latches   :  No
+  Borrow Time for Max Delay Exceptions       :  Yes
+  Merge Timing Exceptions                    :  Yes
+  Inter-SLR Compensation                     :  Conservative
+
+  Corner  Analyze    Analyze    
+  Name    Max Paths  Min Paths  
+  ------  ---------  ---------  
+  Slow    Yes        Yes        
+  Fast    Yes        Yes        
+
+
+------------------------------------------------------------------------------------------------
+| Report Methodology
+| ------------------
+------------------------------------------------------------------------------------------------
+
+Rule       Severity  Description                                      Violations  
+---------  --------  -----------------------------------------------  ----------  
+DPIR-1     Warning   Asynchronous driver check                        892         
+LUTAR-1    Warning   LUT drives async reset alert                     20          
+PDRC-190   Warning   Suboptimally placed synchronized register chain  32          
+TIMING-18  Warning   Missing input or output delay                    4           
+ULMTCS-1   Warning   Control Sets use limits recommend reduction      1           
+
+Note: This report is based on the most recent report_methodology run and may not be up-to-date. Run report_methodology on the current design for the latest report.
+
+
+
+check_timing report
+
+Table of Contents
+-----------------
+1. checking no_clock (0)
+2. checking constant_clock (0)
+3. checking pulse_width_clock (0)
+4. checking unconstrained_internal_endpoints (0)
+5. checking no_input_delay (8)
+6. checking no_output_delay (25)
+7. checking multiple_clock (0)
+8. checking generated_clocks (0)
+9. checking loops (0)
+10. checking partial_input_delay (0)
+11. checking partial_output_delay (0)
+12. checking latch_loops (0)
+
+1. checking no_clock (0)
+------------------------
+ There are 0 register/latch pins with no clock.
+
+
+2. checking constant_clock (0)
+------------------------------
+ There are 0 register/latch pins with constant_clock.
+
+
+3. checking pulse_width_clock (0)
+---------------------------------
+ There are 0 register/latch pins which need pulse_width check
+
+
+4. checking unconstrained_internal_endpoints (0)
+------------------------------------------------
+ There are 0 pins that are not constrained for maximum delay.
+
+ There are 0 pins that are not constrained for maximum delay due to constant clock.
+
+
+5. checking no_input_delay (8)
+------------------------------
+ There are 4 input ports with no input delay specified. (HIGH)
+
+ There are 4 input ports with no input delay but user has a false path constraint. (MEDIUM)
+
+
+6. checking no_output_delay (25)
+--------------------------------
+ There are 25 ports with no output delay specified. (HIGH)
+
+ There are 0 ports with no output delay but user has a false path constraint
+
+ There are 0 ports with no output delay but with a timing clock defined on it or propagating through it
+
+
+7. checking multiple_clock (0)
+------------------------------
+ There are 0 register/latch pins with multiple clocks.
+
+
+8. checking generated_clocks (0)
+--------------------------------
+ There are 0 generated clocks that are not connected to a clock source.
+
+
+9. checking loops (0)
+---------------------
+ There are 0 combinational loops in the design.
+
+
+10. checking partial_input_delay (0)
+------------------------------------
+ There are 0 input ports with partial input delay specified.
+
+
+11. checking partial_output_delay (0)
+-------------------------------------
+ There are 0 ports with partial output delay specified.
+
+
+12. checking latch_loops (0)
+----------------------------
+ There are 0 combinational latch loops in the design through latch input
+
+
+
+------------------------------------------------------------------------------------------------
+| Design Timing Summary
+| ---------------------
+------------------------------------------------------------------------------------------------
+
+    WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+    -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+      0.018        0.000                      0               154092        0.019        0.000                      0               154050        3.000        0.000                       0                 53534  
+
+
+All user specified timing constraints are met.
+
+
+------------------------------------------------------------------------------------------------
+| Clock Summary
+| -------------
+------------------------------------------------------------------------------------------------
+
+Clock                                       Waveform(ns)       Period(ns)      Frequency(MHz)
+-----                                       ------------       ----------      --------------
+clk_fpga_0                                  {0.000 5.000}      10.000          100.000         
+  clk_out1_tracegpu_system_clk_pixel_25m_0  {0.000 20.000}     40.000          25.000          
+  clkfbout_tracegpu_system_clk_pixel_25m_0  {0.000 5.000}      10.000          100.000         
+
+
+------------------------------------------------------------------------------------------------
+| Intra Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+Clock                                           WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+-----                                           -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+clk_fpga_0                                        0.018        0.000                      0               149194        0.019        0.000                      0               149194        3.000        0.000                       0                 53082  
+  clk_out1_tracegpu_system_clk_pixel_25m_0       32.741        0.000                      0                  836        0.120        0.000                      0                  836       19.146        0.000                       0                   449  
+  clkfbout_tracegpu_system_clk_pixel_25m_0                                                                                                                                                    8.408        0.000                       0                     3  
+
+
+------------------------------------------------------------------------------------------------
+| Inter Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+From Clock                                To Clock                                      WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------                                --------                                      -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+clk_out1_tracegpu_system_clk_pixel_25m_0  clk_fpga_0                                     38.240        0.000                      0                   21                                                                        
+clk_fpga_0                                clk_out1_tracegpu_system_clk_pixel_25m_0        8.140        0.000                      0                   21                                                                        
+
+
+------------------------------------------------------------------------------------------------
+| Other Path Groups Table
+| -----------------------
+------------------------------------------------------------------------------------------------
+
+Path Group         From Clock         To Clock               WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------         ----------         --------               -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+**async_default**  clk_fpga_0         clk_fpga_0               1.995        0.000                      0                 4020        0.446        0.000                      0                 4020  
+
+
+------------------------------------------------------------------------------------------------
+| Timing Details
+| --------------
+------------------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  clk_fpga_0
+  To Clock:  clk_fpga_0
+
+Setup :            0  Failing Endpoints,  Worst Slack        0.018ns,  Total Violation        0.000ns
+Hold  :            0  Failing Endpoints,  Worst Slack        0.019ns,  Total Violation        0.000ns
+PW    :            0  Failing Endpoints,  Worst Slack        3.000ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.018ns  (required time - arrival time)
+  Source:                 tracegpu_system_i/axi_uart_mem/m00_couplers/auto_ds/inst/gen_downsizer.gen_cascaded_downsizer.first_downsizer_inst/USE_WRITE.write_data_inst/first_word_reg/C
+                            (rising edge-triggered cell FDSE clocked by clk_fpga_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            tracegpu_system_i/uart_capture_dma/U0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_AXI_DATAMOVER/GEN_S2MM_BASIC.I_S2MM_BASIC_WRAPPER/I_WR_DATA_CNTL/sig_dqual_reg_empty_reg/S
+                            (rising edge-triggered cell FDSE clocked by clk_fpga_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             clk_fpga_0
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (clk_fpga_0 rise@10.000ns - clk_fpga_0 rise@0.000ns)
+  Data Path Delay:        9.407ns  (logic 2.506ns (26.639%)  route 6.901ns (73.361%))
+  Logic Levels:           14  (LUT2=2 LUT3=2 LUT5=5 LUT6=5)
+  Clock Path Skew:        -0.069ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    2.210ns = ( 12.210 - 10.000 ) 
+    Source Clock Delay      (SCD):    2.471ns
+    Clock Pessimism Removal (CPR):    0.192ns
+  Clock Uncertainty:      0.154ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.300ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_fpga_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  tracegpu_system_i/ps7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           0.994     0.994    tracegpu_system_i/ps7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.085     1.079 r  tracegpu_system_i/ps7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=53102, routed)       1.392     2.471    tracegpu_system_i/axi_uart_mem/m00_couplers/auto_ds/inst/gen_downsizer.gen_cascaded_downsizer.first_downsizer_inst/USE_WRITE.write_data_inst/out
+    SLICE_X34Y53         FDSE                                         r  tracegpu_system_i/axi_uart_mem/m00_couplers/auto_ds/inst/gen_downsizer.gen_cascaded_downsizer.first_downsizer_inst/USE_WRITE.write_data_inst/first_word_reg/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X34Y53         FDSE (Prop_fdse_C_Q)         0.398     2.869 r  tracegpu_system_i/axi_uart_mem/m00_couplers/auto_ds/inst/gen_downsizer.gen_cascaded_downsizer.first_downsizer_inst/USE_WRITE.write_data_inst/first_word_reg/Q
+                         net (fo=20, routed)          1.094     3.963    tracegpu_system_i/axi_uart_mem/m00_couplers/auto_ds/inst/gen_downsizer.gen_cascaded_downsizer.first_downsizer_inst/USE_WRITE.write_data_inst/first_mi_word
+    SLICE_X36Y51         LUT5 (Prop_lut5_I3_O)        0.234     4.197 r  tracegpu_system_i/axi_uart_mem/m00_couplers/auto_ds/inst/gen_downsizer.gen_cascaded_downsizer.first_downsizer_inst/USE_WRITE.write_data_inst/length_counter_1[3]_i_2/O
+                         net (fo=2, routed)           0.504     4.701    tracegpu_system_i/axi_uart_mem/m00_couplers/auto_ds/inst/gen_downsizer.gen_cascaded_downsizer.first_downsizer_inst/USE_WRITE.write_data_inst/length_counter_1[3]_i_2_n_0
+    SLICE_X33Y51         LUT6 (Prop_lut6_I2_O)        0.105     4.806 r  tracegpu_system_i/axi_uart_mem/m00_couplers/auto_ds/inst/gen_downsizer.gen_cascaded_downsizer.first_downsizer_inst/USE_WRITE.write_data_inst/length_counter_1[5]_i_2/O
+                         net (fo=2, routed)           0.245     5.051    tracegpu_system_i/axi_uart_mem/m00_couplers/auto_ds/inst/gen_downsizer.gen_cascaded_downsizer.first_downsizer_inst/USE_WRITE.write_data_inst/length_counter_1[5]_i_2_n_0
+    SLICE_X33Y53         LUT6 (Prop_lut6_I2_O)        0.105     5.156 r  tracegpu_system_i/axi_uart_mem/m00_couplers/auto_ds/inst/gen_downsizer.gen_cascaded_downsizer.first_downsizer_inst/USE_WRITE.write_data_inst/first_word_i_2/O
+                         net (fo=2, routed)           0.375     5.531    tracegpu_system_i/axi_uart_mem/m00_couplers/auto_ds/inst/gen_downsizer.gen_cascaded_downsizer.first_downsizer_inst/USE_WRITE.write_data_inst/first_word_i_2_n_0
+    SLICE_X34Y54         LUT6 (Prop_lut6_I2_O)        0.105     5.636 r  tracegpu_system_i/axi_uart_mem/m00_couplers/auto_ds/inst/gen_downsizer.gen_cascaded_downsizer.first_downsizer_inst/USE_WRITE.write_data_inst/first_word_i_1/O
+                         net (fo=3, routed)           0.486     6.122    tracegpu_system_i/axi_uart_mem/m00_couplers/auto_ds/inst/gen_downsizer.gen_cascaded_downsizer.first_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/gen_downsizer.gen_cascaded_downsizer.wlast_i
+    SLICE_X36Y53         LUT6 (Prop_lut6_I5_O)        0.105     6.227 f  tracegpu_system_i/axi_uart_mem/m00_couplers/auto_ds/inst/gen_downsizer.gen_cascaded_downsizer.first_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/s_axi_wready_INST_0_i_1/O
+                         net (fo=1, routed)           0.240     6.467    tracegpu_system_i/axi_uart_mem/m00_couplers/auto_ds/inst/gen_downsizer.gen_cascaded_downsizer.first_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/s_axi_wready_INST_0_i_1_n_0
+    SLICE_X36Y54         LUT5 (Prop_lut5_I4_O)        0.105     6.572 r  tracegpu_system_i/axi_uart_mem/m00_couplers/auto_ds/inst/gen_downsizer.gen_cascaded_downsizer.first_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/s_axi_wready_INST_0/O
+                         net (fo=3, routed)           0.347     6.919    tracegpu_system_i/axi_uart_mem/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[0].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wready[0]
+    SLICE_X39Y53         LUT2 (Prop_lut2_I1_O)        0.105     7.024 r  tracegpu_system_i/axi_uart_mem/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[0].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/s_axi_wready[1]_INST_0_i_2/O
+                         net (fo=3, routed)           0.725     7.749    tracegpu_system_i/axi_uart_mem/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/s_axi_wready_0_sn_1
+    SLICE_X36Y68         LUT6 (Prop_lut6_I3_O)        0.105     7.854 r  tracegpu_system_i/axi_uart_mem/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/s_axi_wready[1]_INST_0_i_1/O
+                         net (fo=6, routed)           0.134     7.988    tracegpu_system_i/axi_uart_mem/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/gen_axi.s_axi_wready_i_reg
+    SLICE_X36Y68         LUT2 (Prop_lut2_I0_O)        0.105     8.093 r  tracegpu_system_i/axi_uart_mem/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/s_axi_wready[1]_INST_0/O
+                         net (fo=38, routed)          0.256     8.349    tracegpu_system_i/axi_uart_mem/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.write_addr_inst/GEN_CMD_QUEUE.cmd_queue/m_axi_wready
+    SLICE_X37Y69         LUT3 (Prop_lut3_I1_O)        0.105     8.454 r  tracegpu_system_i/axi_uart_mem/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.write_addr_inst/GEN_CMD_QUEUE.cmd_queue/s_axi_wready_INST_0/O
+                         net (fo=2, routed)           0.552     9.006    tracegpu_system_i/axi_uart_mem/s01_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/m_axi_wready
+    SLICE_X43Y70         LUT3 (Prop_lut3_I0_O)        0.108     9.114 r  tracegpu_system_i/axi_uart_mem/s01_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/s_axi_wready_INST_0/O
+                         net (fo=12, routed)          0.507     9.621    tracegpu_system_i/uart_capture_dma/U0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_AXI_DATAMOVER/GEN_S2MM_BASIC.I_S2MM_BASIC_WRAPPER/I_WR_DATA_CNTL/m_axi_sg_wready
+    SLICE_X46Y71         LUT5 (Prop_lut5_I3_O)        0.268     9.889 r  tracegpu_system_i/uart_capture_dma/U0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_AXI_DATAMOVER/GEN_S2MM_BASIC.I_S2MM_BASIC_WRAPPER/I_WR_DATA_CNTL/sig_dbeat_cntr[7]_i_3/O
+                         net (fo=4, routed)           0.466    10.355    tracegpu_system_i/uart_capture_dma/U0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_AXI_DATAMOVER/GEN_S2MM_BASIC.I_S2MM_BASIC_WRAPPER/I_WR_DATA_CNTL/sig_good_mmap_dbeat9_out__0
+    SLICE_X45Y71         LUT5 (Prop_lut5_I4_O)        0.286    10.641 f  tracegpu_system_i/uart_capture_dma/U0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_AXI_DATAMOVER/GEN_S2MM_BASIC.I_S2MM_BASIC_WRAPPER/I_WR_DATA_CNTL/sig_dqual_reg_full_i_3/O
+                         net (fo=4, routed)           0.538    11.179    tracegpu_system_i/uart_capture_dma/U0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_AXI_DATAMOVER/GEN_S2MM_BASIC.I_S2MM_BASIC_WRAPPER/I_WR_DATA_CNTL/sig_dqual_reg_full_i_3_n_0
+    SLICE_X38Y69         LUT5 (Prop_lut5_I0_O)        0.267    11.446 r  tracegpu_system_i/uart_capture_dma/U0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_AXI_DATAMOVER/GEN_S2MM_BASIC.I_S2MM_BASIC_WRAPPER/I_WR_DATA_CNTL/sig_dqual_reg_full_i_1/O
+                         net (fo=3, routed)           0.433    11.878    tracegpu_system_i/uart_capture_dma/U0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_AXI_DATAMOVER/GEN_S2MM_BASIC.I_S2MM_BASIC_WRAPPER/I_WR_DATA_CNTL/sig_clr_dqual_reg
+    SLICE_X40Y68         FDSE                                         r  tracegpu_system_i/uart_capture_dma/U0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_AXI_DATAMOVER/GEN_S2MM_BASIC.I_S2MM_BASIC_WRAPPER/I_WR_DATA_CNTL/sig_dqual_reg_empty_reg/S
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_fpga_0 rise edge)
+                                                     10.000    10.000 r  
+    PS7_X0Y0             PS7                          0.000    10.000 r  tracegpu_system_i/ps7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           0.905    10.906    tracegpu_system_i/ps7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.077    10.983 r  tracegpu_system_i/ps7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=53102, routed)       1.227    12.210    tracegpu_system_i/uart_capture_dma/U0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_AXI_DATAMOVER/GEN_S2MM_BASIC.I_S2MM_BASIC_WRAPPER/I_WR_DATA_CNTL/m_axi_sg_aclk
+    SLICE_X40Y68         FDSE                                         r  tracegpu_system_i/uart_capture_dma/U0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_AXI_DATAMOVER/GEN_S2MM_BASIC.I_S2MM_BASIC_WRAPPER/I_WR_DATA_CNTL/sig_dqual_reg_empty_reg/C
+                         clock pessimism              0.192    12.402    
+                         clock uncertainty           -0.154    12.248    
+    SLICE_X40Y68         FDSE (Setup_fdse_C_S)       -0.352    11.896    tracegpu_system_i/uart_capture_dma/U0/GEN_SG_ENGINE.I_SG_ENGINE/I_SG_AXI_DATAMOVER/GEN_S2MM_BASIC.I_S2MM_BASIC_WRAPPER/I_WR_DATA_CNTL/sig_dqual_reg_empty_reg
+  -------------------------------------------------------------------
+                         required time                         11.896    
+                         arrival time                         -11.878    
+  -------------------------------------------------------------------
+                         slack                                  0.018    
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.019ns  (arrival time - required time)
+  Source:                 tracegpu_system_i/axi_uart_mem/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[0].reg_slice_mi/b.b_pipe/aresetn_d_reg[0]/C
+                            (rising edge-triggered cell FDRE clocked by clk_fpga_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            tracegpu_system_i/axi_uart_mem/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[0].reg_slice_mi/b.b_pipe/aresetn_d_reg[1]/D
+                            (rising edge-triggered cell FDRE clocked by clk_fpga_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             clk_fpga_0
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (clk_fpga_0 rise@0.000ns - clk_fpga_0 rise@0.000ns)
+  Data Path Delay:        0.384ns  (logic 0.226ns (58.870%)  route 0.158ns (41.130%))
+  Logic Levels:           1  (LUT2=1)
+  Clock Path Skew:        0.273ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.196ns
+    Source Clock Delay      (SCD):    0.893ns
+    Clock Pessimism Removal (CPR):    0.030ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_fpga_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  tracegpu_system_i/ps7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           0.310     0.310    tracegpu_system_i/ps7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.026     0.336 r  tracegpu_system_i/ps7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=53102, routed)       0.557     0.893    tracegpu_system_i/axi_uart_mem/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[0].reg_slice_mi/b.b_pipe/aclk
+    SLICE_X39Y50         FDRE                                         r  tracegpu_system_i/axi_uart_mem/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[0].reg_slice_mi/b.b_pipe/aresetn_d_reg[0]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X39Y50         FDRE (Prop_fdre_C_Q)         0.128     1.021 r  tracegpu_system_i/axi_uart_mem/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[0].reg_slice_mi/b.b_pipe/aresetn_d_reg[0]/Q
+                         net (fo=2, routed)           0.158     1.178    tracegpu_system_i/axi_uart_mem/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[0].reg_slice_mi/b.b_pipe/aresetn_d_reg_n_0_[0]
+    SLICE_X39Y49         LUT2 (Prop_lut2_I0_O)        0.098     1.276 r  tracegpu_system_i/axi_uart_mem/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[0].reg_slice_mi/b.b_pipe/aresetn_d[1]_i_1/O
+                         net (fo=1, routed)           0.000     1.276    tracegpu_system_i/axi_uart_mem/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[0].reg_slice_mi/b.b_pipe/aresetn_d[1]_i_1_n_0
+    SLICE_X39Y49         FDRE                                         r  tracegpu_system_i/axi_uart_mem/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[0].reg_slice_mi/b.b_pipe/aresetn_d_reg[1]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_fpga_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  tracegpu_system_i/ps7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           0.337     0.337    tracegpu_system_i/ps7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     0.366 r  tracegpu_system_i/ps7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=53102, routed)       0.830     1.196    tracegpu_system_i/axi_uart_mem/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[0].reg_slice_mi/b.b_pipe/aclk
+    SLICE_X39Y49         FDRE                                         r  tracegpu_system_i/axi_uart_mem/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[0].reg_slice_mi/b.b_pipe/aresetn_d_reg[1]/C
+                         clock pessimism             -0.030     1.166    
+    SLICE_X39Y49         FDRE (Hold_fdre_C_D)         0.092     1.258    tracegpu_system_i/axi_uart_mem/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[0].reg_slice_mi/b.b_pipe/aresetn_d_reg[1]
+  -------------------------------------------------------------------
+                         required time                         -1.258    
+                         arrival time                           1.276    
+  -------------------------------------------------------------------
+                         slack                                  0.019    
+
+
+
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         clk_fpga_0
+Waveform(ns):       { 0.000 5.000 }
+Period(ns):         10.000
+Sources:            { tracegpu_system_i/ps7_0/inst/PS7_i/FCLKCLK[0] }
+
+Check Type        Corner  Lib Pin            Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location         Pin
+Min Period        n/a     DSP48E1/CLK        n/a            3.272         10.000      6.728      DSP48_X4Y15      tracegpu_system_i/ai_inference/inst/impl/monitor/den_product_reg/CLK
+Max Period        n/a     MMCME2_ADV/CLKIN1  n/a            100.000       10.000      90.000     MMCME2_ADV_X1Y0  tracegpu_system_i/clk_pixel_25m/inst/mmcm_adv_inst/CLKIN1
+Low Pulse Width   Slow    MMCME2_ADV/CLKIN1  n/a            2.000         5.000       3.000      MMCME2_ADV_X1Y0  tracegpu_system_i/clk_pixel_25m/inst/mmcm_adv_inst/CLKIN1
+High Pulse Width  Slow    MMCME2_ADV/CLKIN1  n/a            2.000         5.000       3.000      MMCME2_ADV_X1Y0  tracegpu_system_i/clk_pixel_25m/inst/mmcm_adv_inst/CLKIN1
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  clk_out1_tracegpu_system_clk_pixel_25m_0
+  To Clock:  clk_out1_tracegpu_system_clk_pixel_25m_0
+
+Setup :            0  Failing Endpoints,  Worst Slack       32.741ns,  Total Violation        0.000ns
+Hold  :            0  Failing Endpoints,  Worst Slack        0.120ns,  Total Violation        0.000ns
+PW    :            0  Failing Endpoints,  Worst Slack       19.146ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             32.741ns  (required time - arrival time)
+  Source:                 tracegpu_system_i/v_axi4s_vid_out_0/inst/SYNC_INST/FSM_onehot_state_reg[6]/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_tracegpu_system_clk_pixel_25m_0  {rise@0.000ns fall@20.000ns period=40.000ns})
+  Destination:            tracegpu_system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/rdpp1_inst/count_value_i_reg[7]/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_tracegpu_system_clk_pixel_25m_0  {rise@0.000ns fall@20.000ns period=40.000ns})
+  Path Group:             clk_out1_tracegpu_system_clk_pixel_25m_0
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            40.000ns  (clk_out1_tracegpu_system_clk_pixel_25m_0 rise@40.000ns - clk_out1_tracegpu_system_clk_pixel_25m_0 rise@0.000ns)
+  Data Path Delay:        7.191ns  (logic 1.180ns (16.409%)  route 6.011ns (83.591%))
+  Logic Levels:           6  (LUT2=1 LUT4=2 LUT6=3)
+  Clock Path Skew:        0.022ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    2.306ns = ( 42.306 - 40.000 ) 
+    Source Clock Delay      (SCD):    2.477ns
+    Clock Pessimism Removal (CPR):    0.193ns
+  Clock Uncertainty:      0.120ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.229ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_tracegpu_system_clk_pixel_25m_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  tracegpu_system_i/ps7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           0.994     0.994    tracegpu_system_i/ps7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.085     1.079 r  tracegpu_system_i/ps7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=53102, routed)       1.552     2.631    tracegpu_system_i/clk_pixel_25m/inst/clk_in1
+    MMCME2_ADV_X1Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -3.232    -0.601 r  tracegpu_system_i/clk_pixel_25m/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.597     0.996    tracegpu_system_i/clk_pixel_25m/inst/clk_out1_tracegpu_system_clk_pixel_25m_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.085     1.081 r  tracegpu_system_i/clk_pixel_25m/inst/clkout1_buf/O
+                         net (fo=448, routed)         1.396     2.477    tracegpu_system_i/v_axi4s_vid_out_0/inst/SYNC_INST/vid_io_out_clk
+    SLICE_X47Y32         FDRE                                         r  tracegpu_system_i/v_axi4s_vid_out_0/inst/SYNC_INST/FSM_onehot_state_reg[6]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X47Y32         FDRE (Prop_fdre_C_Q)         0.379     2.856 r  tracegpu_system_i/v_axi4s_vid_out_0/inst/SYNC_INST/FSM_onehot_state_reg[6]/Q
+                         net (fo=3, routed)           0.817     3.673    tracegpu_system_i/v_axi4s_vid_out_0/inst/SYNC_INST/FSM_onehot_state_reg_n_0_[6]
+    SLICE_X46Y33         LUT6 (Prop_lut6_I1_O)        0.105     3.778 r  tracegpu_system_i/v_axi4s_vid_out_0/inst/SYNC_INST/state_dly[0]_i_1/O
+                         net (fo=2, routed)           0.652     4.431    tracegpu_system_i/v_axi4s_vid_out_0/inst/SYNC_INST/state_reg[0]
+    SLICE_X46Y34         LUT2 (Prop_lut2_I1_O)        0.105     4.536 f  tracegpu_system_i/v_axi4s_vid_out_0/inst/SYNC_INST/in_data_mux[23]_i_4/O
+                         net (fo=1, routed)           0.794     5.330    tracegpu_system_i/v_axi4s_vid_out_0/inst/SYNC_INST/in_data_mux[23]_i_4_n_0
+    SLICE_X43Y35         LUT6 (Prop_lut6_I2_O)        0.105     5.435 r  tracegpu_system_i/v_axi4s_vid_out_0/inst/SYNC_INST/in_data_mux[23]_i_2/O
+                         net (fo=39, routed)          1.435     6.870    tracegpu_system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/rdpp1_inst/rd_en
+    SLICE_X15Y39         LUT4 (Prop_lut4_I2_O)        0.107     6.977 r  tracegpu_system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/rdpp1_inst/gen_sdpram.xpm_memory_base_inst_i_2/O
+                         net (fo=23, routed)          1.467     8.444    tracegpu_system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/rdpp1_inst/E[0]
+    SLICE_X11Y36         LUT6 (Prop_lut6_I3_O)        0.274     8.718 r  tracegpu_system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/rdpp1_inst/count_value_i[9]_i_2__1/O
+                         net (fo=3, routed)           0.845     9.563    tracegpu_system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/rdpp1_inst/count_value_i[9]_i_2__1_n_0
+    SLICE_X11Y35         LUT4 (Prop_lut4_I1_O)        0.105     9.668 r  tracegpu_system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/rdpp1_inst/count_value_i[7]_i_1__1/O
+                         net (fo=1, routed)           0.000     9.668    tracegpu_system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/rdpp1_inst/count_value_i[7]_i_1__1_n_0
+    SLICE_X11Y35         FDRE                                         r  tracegpu_system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/rdpp1_inst/count_value_i_reg[7]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_tracegpu_system_clk_pixel_25m_0 rise edge)
+                                                     40.000    40.000 r  
+    PS7_X0Y0             PS7                          0.000    40.000 r  tracegpu_system_i/ps7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           0.905    40.905    tracegpu_system_i/ps7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.077    40.982 r  tracegpu_system_i/ps7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=53102, routed)       1.386    42.368    tracegpu_system_i/clk_pixel_25m/inst/clk_in1
+    MMCME2_ADV_X1Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -2.915    39.453 r  tracegpu_system_i/clk_pixel_25m/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.454    40.907    tracegpu_system_i/clk_pixel_25m/inst/clk_out1_tracegpu_system_clk_pixel_25m_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.077    40.984 r  tracegpu_system_i/clk_pixel_25m/inst/clkout1_buf/O
+                         net (fo=448, routed)         1.322    42.306    tracegpu_system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/rdpp1_inst/rd_clk
+    SLICE_X11Y35         FDRE                                         r  tracegpu_system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/rdpp1_inst/count_value_i_reg[7]/C
+                         clock pessimism              0.193    42.499    
+                         clock uncertainty           -0.120    42.379    
+    SLICE_X11Y35         FDRE (Setup_fdre_C_D)        0.030    42.409    tracegpu_system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/rdpp1_inst/count_value_i_reg[7]
+  -------------------------------------------------------------------
+                         required time                         42.409    
+                         arrival time                          -9.668    
+  -------------------------------------------------------------------
+                         slack                                 32.741    
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.120ns  (arrival time - required time)
+  Source:                 tracegpu_system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][1]/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_tracegpu_system_clk_pixel_25m_0  {rise@0.000ns fall@20.000ns period=40.000ns})
+  Destination:            tracegpu_system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[1][1]/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_tracegpu_system_clk_pixel_25m_0  {rise@0.000ns fall@20.000ns period=40.000ns})
+  Path Group:             clk_out1_tracegpu_system_clk_pixel_25m_0
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (clk_out1_tracegpu_system_clk_pixel_25m_0 rise@0.000ns - clk_out1_tracegpu_system_clk_pixel_25m_0 rise@0.000ns)
+  Data Path Delay:        0.196ns  (logic 0.141ns (71.838%)  route 0.055ns (28.162%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.000ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.253ns
+    Source Clock Delay      (SCD):    0.955ns
+    Clock Pessimism Removal (CPR):    0.298ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_tracegpu_system_clk_pixel_25m_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  tracegpu_system_i/ps7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           0.310     0.310    tracegpu_system_i/ps7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.026     0.336 r  tracegpu_system_i/ps7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=53102, routed)       0.597     0.933    tracegpu_system_i/clk_pixel_25m/inst/clk_in1
+    MMCME2_ADV_X1Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -1.150    -0.217 r  tracegpu_system_i/clk_pixel_25m/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           0.529     0.312    tracegpu_system_i/clk_pixel_25m/inst/clk_out1_tracegpu_system_clk_pixel_25m_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026     0.338 r  tracegpu_system_i/clk_pixel_25m/inst/clkout1_buf/O
+                         net (fo=448, routed)         0.617     0.955    tracegpu_system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_clk
+    SLICE_X3Y32          FDRE                                         r  tracegpu_system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][1]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X3Y32          FDRE (Prop_fdre_C_Q)         0.141     1.096 r  tracegpu_system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][1]/Q
+                         net (fo=1, routed)           0.055     1.151    tracegpu_system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff[0][1]
+    SLICE_X3Y32          FDRE                                         r  tracegpu_system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[1][1]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_tracegpu_system_clk_pixel_25m_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  tracegpu_system_i/ps7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           0.337     0.337    tracegpu_system_i/ps7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     0.366 r  tracegpu_system_i/ps7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=53102, routed)       0.864     1.230    tracegpu_system_i/clk_pixel_25m/inst/clk_in1
+    MMCME2_ADV_X1Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -1.467    -0.237 r  tracegpu_system_i/clk_pixel_25m/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           0.576     0.339    tracegpu_system_i/clk_pixel_25m/inst/clk_out1_tracegpu_system_clk_pixel_25m_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029     0.368 r  tracegpu_system_i/clk_pixel_25m/inst/clkout1_buf/O
+                         net (fo=448, routed)         0.885     1.253    tracegpu_system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_clk
+    SLICE_X3Y32          FDRE                                         r  tracegpu_system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[1][1]/C
+                         clock pessimism             -0.298     0.954    
+    SLICE_X3Y32          FDRE (Hold_fdre_C_D)         0.076     1.030    tracegpu_system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[1][1]
+  -------------------------------------------------------------------
+                         required time                         -1.031    
+                         arrival time                           1.151    
+  -------------------------------------------------------------------
+                         slack                                  0.120    
+
+
+
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         clk_out1_tracegpu_system_clk_pixel_25m_0
+Waveform(ns):       { 0.000 20.000 }
+Period(ns):         40.000
+Sources:            { tracegpu_system_i/clk_pixel_25m/inst/mmcm_adv_inst/CLKOUT0 }
+
+Check Type        Corner  Lib Pin             Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location         Pin
+Min Period        n/a     RAMB36E1/CLKBWRCLK  n/a            2.170         40.000      37.830     RAMB36_X0Y7      tracegpu_system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg/CLKBWRCLK
+Max Period        n/a     MMCME2_ADV/CLKOUT0  n/a            213.360       40.000      173.360    MMCME2_ADV_X1Y0  tracegpu_system_i/clk_pixel_25m/inst/mmcm_adv_inst/CLKOUT0
+Low Pulse Width   Slow    SRL16E/CLK          n/a            0.854         20.000      19.146     SLICE_X42Y0      tracegpu_system_i/rst_25m/U0/EXT_LPF/POR_SRL_I/CLK
+High Pulse Width  Slow    SRL16E/CLK          n/a            0.854         20.000      19.146     SLICE_X42Y0      tracegpu_system_i/rst_25m/U0/EXT_LPF/POR_SRL_I/CLK
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  clkfbout_tracegpu_system_clk_pixel_25m_0
+  To Clock:  clkfbout_tracegpu_system_clk_pixel_25m_0
+
+Setup :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+Hold  :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+PW    :            0  Failing Endpoints,  Worst Slack        8.408ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         clkfbout_tracegpu_system_clk_pixel_25m_0
+Waveform(ns):       { 0.000 5.000 }
+Period(ns):         10.000
+Sources:            { tracegpu_system_i/clk_pixel_25m/inst/mmcm_adv_inst/CLKFBOUT }
+
+Check Type  Corner  Lib Pin             Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location         Pin
+Min Period  n/a     BUFG/I              n/a            1.592         10.000      8.408      BUFGCTRL_X0Y1    tracegpu_system_i/clk_pixel_25m/inst/clkf_buf/I
+Max Period  n/a     MMCME2_ADV/CLKFBIN  n/a            100.000       10.000      90.000     MMCME2_ADV_X1Y0  tracegpu_system_i/clk_pixel_25m/inst/mmcm_adv_inst/CLKFBIN
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  clk_out1_tracegpu_system_clk_pixel_25m_0
+  To Clock:  clk_fpga_0
+
+Setup :            0  Failing Endpoints,  Worst Slack       38.240ns,  Total Violation        0.000ns
+Hold  :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             38.240ns  (required time - arrival time)
+  Source:                 tracegpu_system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[1]/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_tracegpu_system_clk_pixel_25m_0  {rise@0.000ns fall@20.000ns period=40.000ns})
+  Destination:            tracegpu_system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][1]/D
+                            (rising edge-triggered cell FDRE clocked by clk_fpga_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             clk_fpga_0
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            40.000ns  (MaxDelay Path 40.000ns)
+  Data Path Delay:        1.548ns  (logic 0.348ns (22.473%)  route 1.200ns (77.527%))
+  Logic Levels:           0  
+  Timing Exception:       MaxDelay Path 40.000ns -datapath_only
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X19Y33                                      0.000     0.000 r  tracegpu_system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[1]/C
+    SLICE_X19Y33         FDRE (Prop_fdre_C_Q)         0.348     0.348 r  tracegpu_system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[1]/Q
+                         net (fo=1, routed)           1.200     1.548    tracegpu_system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/async_path[1]
+    SLICE_X41Y30         FDRE                                         r  tracegpu_system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][1]/D
+  -------------------------------------------------------------------    -------------------
+
+                         max delay                   40.000    40.000    
+    SLICE_X41Y30         FDRE (Setup_fdre_C_D)       -0.212    39.788    tracegpu_system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][1]
+  -------------------------------------------------------------------
+                         required time                         39.788    
+                         arrival time                          -1.548    
+  -------------------------------------------------------------------
+                         slack                                 38.240    
+
+
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  clk_fpga_0
+  To Clock:  clk_out1_tracegpu_system_clk_pixel_25m_0
+
+Setup :            0  Failing Endpoints,  Worst Slack        8.140ns,  Total Violation        0.000ns
+Hold  :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             8.140ns  (required time - arrival time)
+  Source:                 tracegpu_system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/src_gray_ff_reg[1]/C
+                            (rising edge-triggered cell FDRE clocked by clk_fpga_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            tracegpu_system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_graysync_ff_reg[0][1]/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_tracegpu_system_clk_pixel_25m_0  {rise@0.000ns fall@20.000ns period=40.000ns})
+  Path Group:             clk_out1_tracegpu_system_clk_pixel_25m_0
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (MaxDelay Path 10.000ns)
+  Data Path Delay:        1.703ns  (logic 0.398ns (23.364%)  route 1.305ns (76.636%))
+  Logic Levels:           0  
+  Timing Exception:       MaxDelay Path 10.000ns -datapath_only
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X16Y40                                      0.000     0.000 r  tracegpu_system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/src_gray_ff_reg[1]/C
+    SLICE_X16Y40         FDRE (Prop_fdre_C_Q)         0.398     0.398 r  tracegpu_system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/src_gray_ff_reg[1]/Q
+                         net (fo=1, routed)           1.305     1.703    tracegpu_system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/async_path[1]
+    SLICE_X12Y34         FDRE                                         r  tracegpu_system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_graysync_ff_reg[0][1]/D
+  -------------------------------------------------------------------    -------------------
+
+                         max delay                   10.000    10.000    
+    SLICE_X12Y34         FDRE (Setup_fdre_C_D)       -0.157     9.843    tracegpu_system_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_graysync_ff_reg[0][1]
+  -------------------------------------------------------------------
+                         required time                          9.843    
+                         arrival time                          -1.703    
+  -------------------------------------------------------------------
+                         slack                                  8.140    
+
+
+
+
+
+---------------------------------------------------------------------------------------------------
+Path Group:  **async_default**
+From Clock:  clk_fpga_0
+  To Clock:  clk_fpga_0
+
+Setup :            0  Failing Endpoints,  Worst Slack        1.995ns,  Total Violation        0.000ns
+Hold  :            0  Failing Endpoints,  Worst Slack        0.446ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             1.995ns  (required time - arrival time)
+  Source:                 tracegpu_system_i/rst_100m/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C
+                            (rising edge-triggered cell FDRE clocked by clk_fpga_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            tracegpu_system_i/painterengine_gpu_0/inst/dma_writer/reg_offset_reg[28]/CLR
+                            (recovery check against rising-edge clock clk_fpga_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             **async_default**
+  Path Type:              Recovery (Max at Slow Process Corner)
+  Requirement:            10.000ns  (clk_fpga_0 rise@10.000ns - clk_fpga_0 rise@0.000ns)
+  Data Path Delay:        7.465ns  (logic 0.484ns (6.484%)  route 6.981ns (93.516%))
+  Logic Levels:           1  (LUT4=1)
+  Clock Path Skew:        -0.128ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    2.291ns = ( 12.291 - 10.000 ) 
+    Source Clock Delay      (SCD):    2.528ns
+    Clock Pessimism Removal (CPR):    0.109ns
+  Clock Uncertainty:      0.154ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.300ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_fpga_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  tracegpu_system_i/ps7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           0.994     0.994    tracegpu_system_i/ps7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.085     1.079 r  tracegpu_system_i/ps7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=53102, routed)       1.449     2.528    tracegpu_system_i/rst_100m/U0/slowest_sync_clk
+    SLICE_X79Y26         FDRE                                         r  tracegpu_system_i/rst_100m/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X79Y26         FDRE (Prop_fdre_C_Q)         0.379     2.907 r  tracegpu_system_i/rst_100m/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/Q
+                         net (fo=273, routed)         3.582     6.489    tracegpu_system_i/painterengine_gpu_0/inst/gpu_memcpy/i_wire_resetn
+    SLICE_X41Y17         LUT4 (Prop_lut4_I3_O)        0.105     6.594 f  tracegpu_system_i/painterengine_gpu_0/inst/gpu_memcpy/reg_axi_awaddr[31]_i_2/O
+                         net (fo=247, routed)         3.399     9.993    tracegpu_system_i/painterengine_gpu_0/inst/dma_writer/reg_axi_awaddr_reg[31]_0
+    SLICE_X26Y27         FDCE                                         f  tracegpu_system_i/painterengine_gpu_0/inst/dma_writer/reg_offset_reg[28]/CLR
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_fpga_0 rise edge)
+                                                     10.000    10.000 r  
+    PS7_X0Y0             PS7                          0.000    10.000 r  tracegpu_system_i/ps7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           0.905    10.906    tracegpu_system_i/ps7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.077    10.983 r  tracegpu_system_i/ps7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=53102, routed)       1.309    12.291    tracegpu_system_i/painterengine_gpu_0/inst/dma_writer/i_wire_clock
+    SLICE_X26Y27         FDCE                                         r  tracegpu_system_i/painterengine_gpu_0/inst/dma_writer/reg_offset_reg[28]/C
+                         clock pessimism              0.109    12.400    
+                         clock uncertainty           -0.154    12.246    
+    SLICE_X26Y27         FDCE (Recov_fdce_C_CLR)     -0.258    11.988    tracegpu_system_i/painterengine_gpu_0/inst/dma_writer/reg_offset_reg[28]
+  -------------------------------------------------------------------
+                         required time                         11.988    
+                         arrival time                          -9.993    
+  -------------------------------------------------------------------
+                         slack                                  1.995    
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.446ns  (arrival time - required time)
+  Source:                 tracegpu_system_wrapper/tracegpu_system/tracegpu_system_axi_uart_mem_0/s00_couplers_imp_UY2Q6U/tracegpu_system_axi_uart_mem_imp_auto_pc_0/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_protocol_converter_v2_1_37_axi_protocol_converter/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_protocol_converter_v2_1_37_axi3_conv/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_protocol_converter_v2_1_37_a_axi3_conv/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_data_fifo_v2_1_36_axic_fifo/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_data_fifo_v2_1_36_fifo_gen_1/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                            (rising edge-triggered cell FDRE clocked by clk_fpga_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            tracegpu_system_wrapper/tracegpu_system/tracegpu_system_axi_uart_mem_0/s00_couplers_imp_UY2Q6U/tracegpu_system_axi_uart_mem_imp_auto_pc_0/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_protocol_converter_v2_1_37_axi_protocol_converter/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_protocol_converter_v2_1_37_axi3_conv/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_protocol_converter_v2_1_37_a_axi3_conv/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_data_fifo_v2_1_36_axic_fifo/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_data_fifo_v2_1_36_fifo_gen_1/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                            (removal check against rising-edge clock clk_fpga_0  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             **async_default**
+  Path Type:              Removal (Min at Fast Process Corner)
+  Requirement:            0.000ns  (clk_fpga_0 rise@0.000ns - clk_fpga_0 rise@0.000ns)
+  Data Path Delay:        0.621ns  (logic 0.227ns (36.559%)  route 0.394ns (63.441%))
+  Logic Levels:           1  (LUT3=1)
+  Clock Path Skew:        0.267ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.194ns
+    Source Clock Delay      (SCD):    0.892ns
+    Clock Pessimism Removal (CPR):    0.035ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_fpga_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  tracegpu_system_i/ps7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           0.310     0.310    tracegpu_system_i/ps7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.026     0.336 r  tracegpu_system_i/ps7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=53102, routed)       0.556     0.891    tracegpu_system_wrapper/tracegpu_system/tracegpu_system_axi_uart_mem_0/s00_couplers_imp_UY2Q6U/tracegpu_system_axi_uart_mem_imp_auto_pc_0/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_protocol_converter_v2_1_37_axi_protocol_converter/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_protocol_converter_v2_1_37_axi3_conv/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_protocol_converter_v2_1_37_a_axi3_conv/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_data_fifo_v2_1_36_axic_fifo/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_data_fifo_v2_1_36_fifo_gen_1/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    SLICE_X53Y39         FDRE                                         r  tracegpu_system_wrapper/tracegpu_system/tracegpu_system_axi_uart_mem_0/s00_couplers_imp_UY2Q6U/tracegpu_system_axi_uart_mem_imp_auto_pc_0/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_protocol_converter_v2_1_37_axi_protocol_converter/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_protocol_converter_v2_1_37_axi3_conv/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_protocol_converter_v2_1_37_a_axi3_conv/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_data_fifo_v2_1_36_axic_fifo/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_data_fifo_v2_1_36_fifo_gen_1/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+  -------------------------------------------------------------------    -------------------
+    SLICE_X53Y39         FDRE (Prop_fdre_C_Q)         0.128     1.020 f  tracegpu_system_wrapper/tracegpu_system/tracegpu_system_axi_uart_mem_0/s00_couplers_imp_UY2Q6U/tracegpu_system_axi_uart_mem_imp_auto_pc_0/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_protocol_converter_v2_1_37_axi_protocol_converter/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_protocol_converter_v2_1_37_axi3_conv/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_protocol_converter_v2_1_37_a_axi3_conv/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_data_fifo_v2_1_36_axic_fifo/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_data_fifo_v2_1_36_fifo_gen_1/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         net (fo=3, routed)           0.199     1.218    tracegpu_system_wrapper/tracegpu_system/tracegpu_system_axi_uart_mem_0/s00_couplers_imp_UY2Q6U/tracegpu_system_axi_uart_mem_imp_auto_pc_0/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_protocol_converter_v2_1_37_axi_protocol_converter/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_protocol_converter_v2_1_37_axi3_conv/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_protocol_converter_v2_1_37_a_axi3_conv/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_data_fifo_v2_1_36_axic_fifo/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_data_fifo_v2_1_36_fifo_gen_1/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    SLICE_X53Y40         LUT3 (Prop_lut3_I1_O)        0.099     1.317 f  tracegpu_system_wrapper/tracegpu_system/tracegpu_system_axi_uart_mem_0/s00_couplers_imp_UY2Q6U/tracegpu_system_axi_uart_mem_imp_auto_pc_0/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_protocol_converter_v2_1_37_axi_protocol_converter/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_protocol_converter_v2_1_37_axi3_conv/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_protocol_converter_v2_1_37_a_axi3_conv/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_data_fifo_v2_1_36_axic_fifo/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_data_fifo_v2_1_36_fifo_gen_1/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         net (fo=32, routed)          0.195     1.512    tracegpu_system_wrapper/tracegpu_system/tracegpu_system_axi_uart_mem_0/s00_couplers_imp_UY2Q6U/tracegpu_system_axi_uart_mem_imp_auto_pc_0/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_protocol_converter_v2_1_37_axi_protocol_converter/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_protocol_converter_v2_1_37_axi3_conv/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_protocol_converter_v2_1_37_a_axi3_conv/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_data_fifo_v2_1_36_axic_fifo/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_data_fifo_v2_1_36_fifo_gen_1/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    SLICE_X48Y40         FDCE                                         f  tracegpu_system_wrapper/tracegpu_system/tracegpu_system_axi_uart_mem_0/s00_couplers_imp_UY2Q6U/tracegpu_system_axi_uart_mem_imp_auto_pc_0/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_protocol_converter_v2_1_37_axi_protocol_converter/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_protocol_converter_v2_1_37_axi3_conv/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_protocol_converter_v2_1_37_a_axi3_conv/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_data_fifo_v2_1_36_axic_fifo/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_data_fifo_v2_1_36_fifo_gen_1/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_fpga_0 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  tracegpu_system_i/ps7_0/inst/PS7_i/FCLKCLK[0]
+                         net (fo=1, routed)           0.337     0.337    tracegpu_system_i/ps7_0/inst/FCLK_CLK_unbuffered[0]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.029     0.366 r  tracegpu_system_i/ps7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=53102, routed)       0.828     1.194    tracegpu_system_wrapper/tracegpu_system/tracegpu_system_axi_uart_mem_0/s00_couplers_imp_UY2Q6U/tracegpu_system_axi_uart_mem_imp_auto_pc_0/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_protocol_converter_v2_1_37_axi_protocol_converter/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_protocol_converter_v2_1_37_axi3_conv/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_protocol_converter_v2_1_37_a_axi3_conv/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_data_fifo_v2_1_36_axic_fifo/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_data_fifo_v2_1_36_fifo_gen_1/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    SLICE_X48Y40         FDCE                                         r  tracegpu_system_wrapper/tracegpu_system/tracegpu_system_axi_uart_mem_0/s00_couplers_imp_UY2Q6U/tracegpu_system_axi_uart_mem_imp_auto_pc_0/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_protocol_converter_v2_1_37_axi_protocol_converter/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_protocol_converter_v2_1_37_axi3_conv/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_protocol_converter_v2_1_37_a_axi3_conv/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_data_fifo_v2_1_36_axic_fifo/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_data_fifo_v2_1_36_fifo_gen_1/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         clock pessimism             -0.035     1.159    
+    SLICE_X48Y40         FDCE (Remov_fdce_C_CLR)     -0.092     1.067    tracegpu_system_wrapper/tracegpu_system/tracegpu_system_axi_uart_mem_0/s00_couplers_imp_UY2Q6U/tracegpu_system_axi_uart_mem_imp_auto_pc_0/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_protocol_converter_v2_1_37_axi_protocol_converter/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_protocol_converter_v2_1_37_axi3_conv/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_protocol_converter_v2_1_37_a_axi3_conv/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_data_fifo_v2_1_36_axic_fifo/tracegpu_system_axi_uart_mem_imp_auto_pc_0_axi_data_fifo_v2_1_36_fifo_gen_1/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+  -------------------------------------------------------------------
+                         required time                         -1.067    
+                         arrival time                           1.512    
+  -------------------------------------------------------------------
+                         slack                                  0.446    
+
+
+
+
+

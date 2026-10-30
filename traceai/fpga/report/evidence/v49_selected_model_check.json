@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "scope": "Frozen UART R2/R9/R8/R11 C bytes, not a new accuracy assessment",
+  "sha256": "1e49fee3b371da45d5ead17850716e1bc9d23b0277d162e4cf0961ddfdd38d77",
+  "files": [
+    "canonical_weights.mem",
+    "params.mem",
+    "canonical_layers.vh"
+  ],
+  "programmed": false
+}

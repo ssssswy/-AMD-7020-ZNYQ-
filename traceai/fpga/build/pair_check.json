@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "bit_sha256": "09999b044e32ed15e8c1bc7d2462733531b55df2a4afc3e8fdb1b6649aead6fb",
+  "xsa_sha256": "aa8f13573e5d0137bb61b585937f425f2cb4c4801fef4a7a649976f80c20c16e",
+  "elf_sha256": "05a3e3c4345db9481fcfa3aa52a92673d51e10306e7cc8df39383d085e668d2c",
+  "hwh_sha256": "cba865b8b35b2db8d4ecda3a9f1f217f1702b6459441d3d7816b6792bb083aad",
+  "ps7_init_sha256": "6d9aa84655075f203ba86e1b4aea55e8d0b47e4174fc60e59053d0df0acbe804",
+  "xsa_embedded_bit_match": true,
+  "programmed": false,
+  "board_accepted": false
+}

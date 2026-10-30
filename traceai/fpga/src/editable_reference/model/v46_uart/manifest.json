@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "protocols": [
+    "UART"
+  ],
+  "model_ids": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "subset_hash": "1e49fee3b371da45d5ead17850716e1bc9d23b0277d162e4cf0961ddfdd38d77",
+  "parent_six_model_hash": "4a77aa8b9a66af2c74de721b5cae0075a943bc0aed3b5dc5a55120524f5a0cf0",
+  "canonical_weight_count": 17108,
+  "parameter_count": 179,
+  "bank_depth": 2048,
+  "used_words": 1294,
+  "unchanged_UART_values": true,
+  "files": {
+    "canonical_layers.vh": "7d690426d94ec90b050c5b0436bae546c97b089d34d5a1f979643ba0ac6e5d97",
+    "canonical_weights.mem": "5a48199721e030faf5cd69993b4ddd529577d260b609e7feb3585e5a4c623b5a",
+    "global_decision.mem": "ad664c78a9a2b20a7242f09eab8b1dbb7446a6c5bbb66415cff8942c20eb5778",
+    "lane_0.mem": "176cff48e3200d7257913da9ef271e654389b2ba7af5a69424148b9a516eba9d",
+    "lane_1.mem": "1def2fcc1d74d254215d779418fe918751f1b7b11ec32c88b1485440a875912f",
+    "lane_2.mem": "1c666db9d2a24fa4be8d3b93101e4696a2a3440723e602e5a75e77448b510489",
+    "lane_3.mem": "1e163e725f1e220294de7ad134ec3582eba904874a9bbee88ac819882a7541b1",
+    "lane_4.mem": "cf651398c0abdc6926c8fb935d025ccb970d4c6546d914ff740058274288b339",
+    "lane_5.mem": "c6b24214de8843daaedf81a72f153fa9c6d6572cb98c07018e1985aafdfc89b0",
+    "lane_6.mem": "6cda24d59c3f90eb5d99eda99935b12fddcaac2cec8ff7358dc32c36edcff56c",
+    "lane_7.mem": "b6346f3271569e7210bbbc31f7438f8f5f2253f9b80aa4d5d3be9ed0048b9d92",
+    "lane_8.mem": "948d238f92e13a992f364479346c935e216239de6d292e89f17aa7c49bc756fa",
+    "lane_9.mem": "9416d5ccb4d9ce77db50839573782173bbb986d0f0183f537db199d16f86653f",
+    "lane_a.mem": "673ea06097c03e59ad4407da5d0080040c82f859c0912db31a9934d6a4ad465d",
+    "lane_b.mem": "2cea2fc53dd19d42359f9b67b1311058f2385cf9c3ef35b0c46afa4fe5c69338",
+    "lane_c.mem": "2cee5e8b3b325edcf43d910317a722cec2ac7bfbee7d592f7c7ae0246e594de7",
+    "lane_d.mem": "090703dbd3b5f135e65462b5cebce1c38c341eb3cc27f72b07e1ce4f9da4ad50",
+    "lane_e.mem": "49e87983e623456933379a25ef54a8070cd50dcaa9487333bcfb13fe46ca879a",
+    "lane_f.mem": "a77495ba5f6245b3b222a95d5fcdfc049994c22253cdbece1d629b384aa1938d",
+    "params.mem": "2741b0f4f47f3e56cccfb4ac1b7c0cedfa46444aa285d3efd2bf105673ecd76a"
+  }
+}

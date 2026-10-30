@@ -1,0 +1,34 @@
+{
+  "glitch": {
+    "n": 120,
+    "correct": 119
+  },
+  "burst_chatter": {
+    "n": 75,
+    "correct": 75
+  },
+  "parity_flip": {
+    "n": 120,
+    "correct": 25
+  },
+  "mandatory_stop_low": {
+    "n": 120,
+    "correct": 51
+  },
+  "baud_mismatch": {
+    "n": 120,
+    "correct": 97
+  },
+  "edge_skew": {
+    "n": 120,
+    "correct": 90
+  },
+  "correlated_edge_jitter": {
+    "n": 75,
+    "correct": 65
+  },
+  "mark_space_bias": {
+    "n": 75,
+    "correct": 61
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "document_sha256": "f287231bdad16e51c9e79d170e21e84c993d6975af80deb5df04f2c577a42768",
+  "findings": [],
+  "checks": [
+    "Per-type TP and matched normal controls checked",
+    "Detection separated from class accuracy and live coverage",
+    "Current ROM and rule sources verified",
+    "SPI/I2C CNN excluded",
+    "Sealed replay distinguished from new independent data",
+    "Evidence links resolve"
+  ],
+  "combined_comparison_checked": true
+}

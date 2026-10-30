@@ -1,0 +1,170 @@
+{
+  "models": [
+    {
+      "id": 0,
+      "name": "global",
+      "input_count": 6144,
+      "input_shape": [
+        24,
+        256
+      ],
+      "outputs": 3,
+      "logit_exponent": -8,
+      "sha256": "d0ef65c16a9b1b7de19a6b0be9e437e6c4b62a92ea823786c3ebd0d338c00b65",
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.0_ai_training\\uart_frame_identity_r11_20261024\\initialization\\global_parameters.npz"
+    },
+    {
+      "id": 1,
+      "name": "parity",
+      "input_count": 1280,
+      "input_shape": [
+        20,
+        64
+      ],
+      "outputs": 5,
+      "logit_exponent": -8,
+      "sha256": "e33b3d884015174e91b7b2c352953a9a4e27616be56cc5fc3cdce98653acae50",
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.0_ai_training\\uart_anchor_20261024_r9\\exports\\frozen_main_r8\\parameters.npz"
+    },
+    {
+      "id": 2,
+      "name": "anchor",
+      "input_count": 1280,
+      "input_shape": [
+        20,
+        64
+      ],
+      "outputs": 5,
+      "logit_exponent": -11,
+      "sha256": "b9ee8ae1a1349dcaf39a7156baed71ee0250e3998e1856e76a63ff703161442e",
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.0_ai_training\\uart_anchor_20261024_r9\\exports\\selected_int8\\parameters.npz"
+    },
+    {
+      "id": 3,
+      "name": "stop",
+      "input_count": 384,
+      "input_shape": [
+        6,
+        64
+      ],
+      "outputs": 2,
+      "logit_exponent": -10,
+      "sha256": "11760166204f5449065659cd8aca1c7e7ea195d8a5105983e8cbca746a9063f7",
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.0_ai_training\\uart_frame_identity_r11_20261024\\exports\\C\\parameters.npz"
+    },
+    {
+      "id": 4,
+      "name": "spi",
+      "input_count": 2752,
+      "input_shape": [
+        43,
+        64
+      ],
+      "outputs": 68,
+      "logit_exponent": -9,
+      "threshold_codes": -773,
+      "sha256": "c2965feb12b252230b0908a624d3da6f309e5ccc535bee1c2504ef8eeef8686a",
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.0_ai_training\\spi_i2c_lightweight_r2_20261025\\exports\\spi\\timing_edges_seed71\\parameters.npz"
+    },
+    {
+      "id": 5,
+      "name": "i2c",
+      "input_count": 2432,
+      "input_shape": [
+        38,
+        64
+      ],
+      "outputs": 68,
+      "logit_exponent": -9,
+      "threshold_codes": -589,
+      "sha256": "6a6a6a85b1e8bfd0301e760155491300d958f8bbecf819096214bcd06b68d13b",
+      "source": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.0_ai_training\\spi_i2c_lightweight_r2_20261025\\exports\\i2c\\timing_edges_seed31\\parameters.npz"
+    }
+  ],
+  "thresholds": {
+    "global_original": 0.914604137609747,
+    "parity_strict_gt": 0.9375,
+    "stop_strict_gt": 4.8125,
+    "anchor_penalty": "min(z_valid-z_invalid,0)",
+    "anchor_channel": "round_half_away(64*(clip(raw_margin,-8,8)+8)/16)",
+    "candidate_policy": "ALL, no primary hard filtering",
+    "score_is_probability": false
+  },
+  "weights": 22660,
+  "parameter_words": 251,
+  "testcases": [
+    {
+      "id": 0,
+      "count": 6144,
+      "outputs": 3,
+      "stem": "case_00"
+    },
+    {
+      "id": 0,
+      "count": 6144,
+      "outputs": 3,
+      "stem": "case_01"
+    },
+    {
+      "id": 0,
+      "count": 6144,
+      "outputs": 3,
+      "stem": "case_02"
+    },
+    {
+      "id": 1,
+      "count": 1280,
+      "outputs": 5,
+      "stem": "case_03"
+    },
+    {
+      "id": 1,
+      "count": 1280,
+      "outputs": 5,
+      "stem": "case_04"
+    },
+    {
+      "id": 1,
+      "count": 1280,
+      "outputs": 5,
+      "stem": "case_05"
+    },
+    {
+      "id": 2,
+      "count": 1280,
+      "outputs": 5,
+      "stem": "case_06"
+    },
+    {
+      "id": 2,
+      "count": 1280,
+      "outputs": 5,
+      "stem": "case_07"
+    },
+    {
+      "id": 2,
+      "count": 1280,
+      "outputs": 5,
+      "stem": "case_08"
+    },
+    {
+      "id": 3,
+      "count": 384,
+      "outputs": 2,
+      "stem": "case_09"
+    },
+    {
+      "id": 3,
+      "count": 384,
+      "outputs": 2,
+      "stem": "case_10"
+    },
+    {
+      "id": 3,
+      "count": 384,
+      "outputs": 2,
+      "stem": "case_11"
+    }
+  ],
+  "source_selection": "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.0_ai_training\\uart_frame_identity_r11_20261024\\evidence\\development_selection.json"
+}

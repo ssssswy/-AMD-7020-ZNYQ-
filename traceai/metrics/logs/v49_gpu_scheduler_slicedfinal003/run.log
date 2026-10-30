@@ -1,0 +1,37 @@
+LOGIC_C_RENDER_PASS geometry/framebuffer bounds; synthetic host trace, not board FPS
+LOGIC_C_RENDER_PASS geometry/framebuffer bounds; synthetic host trace, not board FPS
+LOGIC_C_RENDER_PASS geometry/framebuffer bounds; synthetic host trace, not board FPS
+LOGIC_C_RENDER_PASS geometry/framebuffer bounds; synthetic host trace, not board FPS
+LOGIC_C_RENDER_PASS geometry/framebuffer bounds; synthetic host trace, not board FPS
+LOGIC_C_RENDER_PASS geometry/framebuffer bounds; synthetic host trace, not board FPS
+LOGIC_C_RENDER_PASS geometry/framebuffer bounds; synthetic host trace, not board FPS
+LOGIC_C_RENDER_PASS geometry/framebuffer bounds; synthetic host trace, not board FPS
+LOGIC_C_RENDER_PASS geometry/framebuffer bounds; synthetic host trace, not board FPS
+LOGIC_C_RENDER_PASS geometry/framebuffer bounds; synthetic host trace, not board FPS
+LOGIC_C_RENDER_PASS geometry/framebuffer bounds; synthetic host trace, not board FPS
+LOGIC_C_RENDER_PASS geometry/framebuffer bounds; synthetic host trace, not board FPS
+LOGIC_C_RENDER_PASS geometry/framebuffer bounds; synthetic host trace, not board FPS
+LOGIC_C_RENDER_PASS geometry/framebuffer bounds; synthetic host trace, not board FPS
+LOGIC_C_RENDER_PASS geometry/framebuffer bounds; synthetic host trace, not board FPS
+LOGIC_C_RENDER_PASS geometry/framebuffer bounds; synthetic host trace, not board FPS
+LOGIC_C_RENDER_PASS geometry/framebuffer bounds; synthetic host trace, not board FPS
+LOGIC_C_RENDER_PASS geometry/framebuffer bounds; synthetic host trace, not board FPS
+LOGIC_C_RENDER_PASS geometry/framebuffer bounds; synthetic host trace, not board FPS
+LOGIC_C_RENDER_PASS geometry/framebuffer bounds; synthetic host trace, not board FPS
+LOGIC_C_RENDER_PASS geometry/framebuffer bounds; synthetic host trace, not board FPS
+LOGIC_C_RENDER_PASS geometry/framebuffer bounds; synthetic host trace, not board FPS
+LOGIC_C_RENDER_PASS geometry/framebuffer bounds; synthetic host trace, not board FPS
+LOGIC_C_RENDER_PASS geometry/framebuffer bounds; synthetic host trace, not board FPS
+LOGIC_C_RENDER_PASS geometry/framebuffer bounds; synthetic host trace, not board FPS
+GPU_PARTIAL_PIXELS_PASS modes=25 frames=707 gpu_frames=139 cpu_frames=568 forced_full=106 small_frames=387 gpu_partial_frames=112 differences=0 board_tested=0
+GPU_PARTIAL_CACHE_PASS batches=1129 rects=20854 gpu_pixels=8110019 flush_bytes=520042496 invalidate_bytes=88956928 delayed_polls=4150 delayed_flips=2121 fault_cases=8 cache_ddr_separate=1 quarantine=1
+GPU_PARTIAL_STRESS_PASS frames=7 plan_rectangles=2404 max_batch=512 overlapping_colors=1 invalid_rect_skip=1 overflow_cpu_fallback=1 invalid_count_rejected=1
+GPU_PARTIAL_COLORED_PASS colored_jobs=700 colored_rectangles=12919 legacy_stress_batches=9 colored_stress_batches=6 order_preserved=1 both_backend_faults=8
+PARTIAL_POLICY_SAMPLE frame=2 delta=1 tiles=335 dirty_wave=29 attempted=0 gpu=0 invalid=0 active=1
+PARTIAL_POLICY_SAMPLE frame=3 delta=1 tiles=331 dirty_wave=30 attempted=1 gpu=1 invalid=0 active=1
+PARTIAL_POLICY_SAMPLE frame=4 delta=1 tiles=332 dirty_wave=29 attempted=0 gpu=0 invalid=0 active=1
+PARTIAL_POLICY_SAMPLE frame=5 delta=1 tiles=332 dirty_wave=29 attempted=1 gpu=1 invalid=0 active=1
+PARTIAL_POLICY_SAMPLE frame=16 delta=0 tiles=12 dirty_wave=3 attempted=1 gpu=0 invalid=0 active=1
+SLICED_SCHEDULER_PASS yields=2934 live_frames=2 freeze_commit=1 stale_cancel_before_ownership=1
+PARTIAL_POLICY_CONFIRM_PASS trained_frames=4 before_flip_samples_unchanged=1
+SCHEDULER_INTEGRATION_PASS frames=22 gpu_frames=9 cpu_frames=13 fallback_frames=5 forced_full=1 publication_checks=19012 fault_cases=6 freeze_cases=3 no_dirty_wave=3 video_requests=23 actual_flip_barrier=1 cache_ddr_separate=1 legacy_gpu_unused=1 board_tested=0

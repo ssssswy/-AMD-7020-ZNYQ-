@@ -1,0 +1,63 @@
+{
+  "files": [
+    {
+      "path": "fpga/src/source_snapshot.zip",
+      "bytes": 84125438,
+      "sha256": "b64efeff681600fe6d0ed75d391c8357a57b5e6d7130c0626c45ef52d0a6b071",
+      "parts": [
+        {
+          "path": "fpga/src/source_snapshot.zip.part000",
+          "bytes": 16000000,
+          "sha256": "a79831e69469d3f024fba0c31f0c3f94662f391ab52316e7c20b595f14f394b9"
+        },
+        {
+          "path": "fpga/src/source_snapshot.zip.part001",
+          "bytes": 16000000,
+          "sha256": "38129546cde78bbb4ba895250ba71db80340a5a7f16761f54956f3ea5bc6a47c"
+        },
+        {
+          "path": "fpga/src/source_snapshot.zip.part002",
+          "bytes": 16000000,
+          "sha256": "2bcd64999b22220acb6774335cccee9667710331d00beb76993fb29d382a0c33"
+        },
+        {
+          "path": "fpga/src/source_snapshot.zip.part003",
+          "bytes": 16000000,
+          "sha256": "0a21f67646ef404528f0b016d9659983b868ca388b1e44efc446bad807509390"
+        },
+        {
+          "path": "fpga/src/source_snapshot.zip.part004",
+          "bytes": 16000000,
+          "sha256": "df15f606e36d0b4064272f90aa81b19cb29e57c85067375cfb7119a83a330e99"
+        },
+        {
+          "path": "fpga/src/source_snapshot.zip.part005",
+          "bytes": 4125438,
+          "sha256": "57ce7b5d9eb56ff037fe475618e131453891e6fd9383c587f62f975e2249c92c"
+        }
+      ]
+    },
+    {
+      "path": "fpga/build/routed.dcp",
+      "bytes": 39505776,
+      "sha256": "2d6963087ed3c0b3ed011e74abdcaf825d6d08079744f5c5d3dd1f5ab1878368",
+      "parts": [
+        {
+          "path": "fpga/build/routed.dcp.part000",
+          "bytes": 16000000,
+          "sha256": "d50cdd3dde962cd36cc6a219574f3e8a3cfe6b4366deeda736ebf2514bbe6784"
+        },
+        {
+          "path": "fpga/build/routed.dcp.part001",
+          "bytes": 16000000,
+          "sha256": "087c2b6f0fd75de6bcab02c2e9c04eec03a4f5d2b2e3da85b45513f00a884315"
+        },
+        {
+          "path": "fpga/build/routed.dcp.part002",
+          "bytes": 7505776,
+          "sha256": "6fe55a833d62c7e22d7df3fd7f669d704cd573a66cc33e683ce92e401fddd6d5"
+        }
+      ]
+    }
+  ]
+}

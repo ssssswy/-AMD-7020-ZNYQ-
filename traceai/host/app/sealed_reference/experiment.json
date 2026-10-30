@@ -1,0 +1,20 @@
+{
+  "name": "Frozen rule/CNN ablation; PC only",
+  "version": 1,
+  "seed": 202610270461,
+  "pairs_per_protocol_split": 300,
+  "splits": ["known", "parameter_ood", "novel_shape"],
+  "protocols": ["uart", "spi", "i2c"],
+  "target": [512, 768],
+  "model_project": "D:/FPGA_gpu/TraceGPU_2025_2/v4.6_full",
+  "training_root": "D:/FPGA_gpu/TraceGPU_2025_2/v4.0_ai_training",
+  "model_hash": "4a77aa8b9a66af2c74de721b5cae0075a943bc0aed3b5dc5a55120524f5a0cf0",
+  "retention_gate": {
+    "combined_recall_gain_pp": 5.0,
+    "max_false_positive_rate": 0.015,
+    "max_added_false_positive_pp": 0.5,
+    "novel_gain_paired_ci_low_gt_zero": true,
+    "meaning": "Predeclared practical criterion for default use, not a training target"
+  },
+  "test_policy": "No training; no CNN cutoff tuning; all three main methods use identical observed samples/config. Strong rules and narrow existing edge rules are separate. Truth never enters encoders or rule inputs. Novel means held-out structured injection mechanism, not a claim that every resulting pattern is absent from all past training. Synthetic only; real board captures remain a separate requirement."
+}

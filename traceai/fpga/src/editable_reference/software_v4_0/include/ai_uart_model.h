@@ -1,0 +1,11 @@
+#ifndef TG_AI_UART_MODEL_H
+#define TG_AI_UART_MODEL_H
+#define TG_AI_UART_HASH0 0x1e49fee3U
+#define TG_AI_UART_HASH1 0xb371da45U
+#define TG_AI_UART_HASH2 0xd5ead178U
+#define TG_AI_UART_HASH3 0x50716e1bU
+#define TG_AI_UART_HASH4 0xc9d23b02U
+#define TG_AI_UART_HASH5 0x77d162e4U
+#define TG_AI_UART_HASH6 0xcf0961ddU
+#define TG_AI_UART_HASH7 0xfdd38d77U
+#endif

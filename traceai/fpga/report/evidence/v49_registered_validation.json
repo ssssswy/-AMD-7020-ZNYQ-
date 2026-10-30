@@ -1,0 +1,13 @@
+{
+  "scope": "Same-cycle COMMIT validation via registered shadow-image error. Reset error=5 matches empty default configuration.",
+  "behavior": "Shadow write_fire consumes aw_pending and w_pending and sets bvalid. A subsequent write cannot be accepted while bvalid is set. Consequently at least one rising edge computes the new validation register before the next COMMIT write_fire. Read and trigger paths unchanged.",
+  "test": "output/v49_validated_axi_001/result.json",
+  "tested_images": 448,
+  "compared_cycles": 50251,
+  "write_transactions": 10017,
+  "read_transactions": 1921,
+  "simulation_passed": true,
+  "hardware_signoff": false,
+  "programmed": false,
+  "source_sha256": "266aac26b6253e906975d98be5e1a109930b1de20624d0aec92ea899cf5da5f2"
+}

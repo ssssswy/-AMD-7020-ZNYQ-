@@ -1,0 +1,21 @@
+{
+  "reference": {
+    "batches": 1129,
+    "rects": 14978,
+    "gpu_pixels": 852546,
+    "flush_bytes": 520042496,
+    "invalidate_bytes": 88956928
+  },
+  "candidate": {
+    "batches": 1129,
+    "rects": 20854,
+    "gpu_pixels": 8110019,
+    "flush_bytes": 520042496,
+    "invalidate_bytes": 88956928
+  },
+  "same_fixture_frames": 707,
+  "scope": "Host noncoherent GPU mock counts only. No measured FPGA utilization/FPS claim.",
+  "reference_result": "output/v49_gpu_reference_001/result.json",
+  "candidate_result": "output/v49_gpu_scheduler_final001/result.json",
+  "programmed": false
+}

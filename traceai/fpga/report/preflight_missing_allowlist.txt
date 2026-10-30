@@ -1,0 +1,17 @@
+software_v4_0/include/capture_session.h
+software_v4_0/include/gesture_recognizer.h
+software_v4_0/include/render_scheduler.h
+software_v4_0/include/ui_ai_notice.h
+software_v4_0/include/ui_freeze_snapshot.h
+software_v4_0/include/wave_render.h
+software_v4_0/src/capture_session.c
+software_v4_0/src/gesture_recognizer.c
+software_v4_0/src/render_cpu.c
+software_v4_0/src/render_scheduler.c
+software_v4_0/src/ui_ai.c
+software_v4_0/src/ui_dashboard.c
+software_v4_0/src/ui_freeze_snapshot.c
+software_v4_0/src/ui_shell.c
+software_v4_0/src/ui_workflow.c
+software_v4_0/src/wave_render.c
+software_v4_0/tests/test_render_scheduler_v3_4.c

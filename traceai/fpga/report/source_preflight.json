@@ -1,0 +1,9 @@
+{
+  "passed": false,
+  "exit_code": 1,
+  "scope": "fresh extracted source archive, read-only build preflight only; no build, no board",
+  "stdout": "",
+  "stderr": "Traceback (most recent call last):\n  File \"D:\\FPGA_gpu\\submission_staging\\qa_v49\\snapshot_preflight\\scripts\\run_v49_cold.py\", line 43, in <module>\n    if __name__=='__main__':raise SystemExit(main())\n                                             ^^^^^^\n  File \"D:\\FPGA_gpu\\submission_staging\\qa_v49\\snapshot_preflight\\scripts\\run_v49_cold.py\", line 15, in main\n    assert all(sha(R/n)==h for n,h in baseline['source_files'].items() if n not in permitted and n!='dfx_runtime.txt'),'Unapproved baseline modification'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Unapproved baseline modification\n",
+  "programmed": false,
+  "board_accepted": false
+}

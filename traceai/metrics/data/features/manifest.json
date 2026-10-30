@@ -1,0 +1,19 @@
+{
+  "windows": 5550,
+  "uart_windows": 1950,
+  "local_tokens": 16734,
+  "bus_windows": {
+    "1": 1800,
+    "2": 1800
+  },
+  "seconds": 0.16771060000246507,
+  "source_inputs": {
+    "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.6_ablation_20261027\\scripts\\feature_reference.c": "357a81b976bdaad40578f66edd5497e0dd77dd448f8b4b022d19ed71a93ea51c",
+    "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.6_full\\software_v4_0\\src\\ai_global.c": "63f56ed58375432e3820fff275481140eaf316f0c791f245bbbb41be5be7997a",
+    "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.6_full\\software_v4_0\\src\\ai_slots.c": "b3edc681513e708130e8bc4ff581287f814f5055bf5b829b9f11270492983419",
+    "D:\\FPGA_gpu\\TraceGPU_2025_2\\v4.6_full\\software_v4_0\\src\\ai_bus_features.c": "b1b326f3dd0ebce739e945505d6c72880c22652fd7fd0be534cc2c9a4c33021e"
+  },
+  "observed_fields_only": true,
+  "compiler": "Cygwin GCC -O3",
+  "fpga_modified": false
+}

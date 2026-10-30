@@ -1,0 +1,43 @@
+{
+  "scope": "License text provenance only; rights and redistribution review pending",
+  "published": false,
+  "entries": [
+    {
+      "source": "competition/reproducibility/licenses/painterengine_license.txt",
+      "copy": "painterengine_license.txt",
+      "sha256": "88b4c21ad320783bd05b89bfbed59a5fcf78ab59ccd88487cb29d2625fcb97e0",
+      "copy_kind": "unmodified original"
+    },
+    {
+      "source": "competition/demo/signal_source/Libraries/STM32F10x_StdPeriph_Driver/LICENSE.txt",
+      "copy": "stm32_stdperiph_license.txt",
+      "sha256": "c7ec30c26e3e1cd1972fab8cb88cc6ff0c94698e68cf20acd74fd8ad91827c0f",
+      "copy_kind": "unmodified original"
+    },
+    {
+      "source": "competition/demo/signal_source/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/LICENSE.txt",
+      "copy": "stm32_device_support_license.txt",
+      "sha256": "bdda7316b54b6fe82114ca514ae4d71e7f92bc8af41087ff3eb647ce16aa5775",
+      "copy_kind": "unmodified original"
+    },
+    {
+      "source": "competition/demo/signal_source/Libraries/CMSIS/License.doc",
+      "copy": "cmsis_license.doc",
+      "sha256": "c0cf8934f8b63e5e021a3786d24f5b36280249774b06be300f8463b54e5beb99",
+      "copy_kind": "unmodified original"
+    },
+    {
+      "source": "competition/skill/tests/validation_dependencies/pyyaml_license.txt",
+      "copy": "pyyaml_license.txt",
+      "sha256": "8d3928f9dc4490fd635707cb88eb26bd764102a7282954307d3e5167a577e8a4",
+      "copy_kind": "unmodified original"
+    },
+    {
+      "source": "competition/demo/signal_source/Libraries/CMSIS/CM3/CoreSupport/core_cm3.h",
+      "copy": "arm_core_cm3_notice.txt",
+      "sha256": "886126be837a8f357ae1db2c875c115885206b9848b43d6915444492b150c5e5",
+      "source_sha256": "de4668aa9d314d05769dfb29f028e205b50577c6b2150fc6bccb34bd34179bbb",
+      "copy_kind": "verbatim leading copyright and license header; original source retains this header"
+    }
+  ]
+}

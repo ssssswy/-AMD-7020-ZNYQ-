@@ -1,0 +1,147 @@
+{
+  "source": "materials_review_49",
+  "changes": [
+    {
+      "path": "README.md",
+      "kind": "text",
+      "reason": "Remove personal task and participation details",
+      "prior_sha256": "bc2ba8aa0c0aaf69d86b0057001c9c01111c3a6a556cc41c2a53dca790a4b14c",
+      "current_sha256": "5a5ac34b3df58829042038846af637a15fcc7d7c2a985de9313be0886ef6a31e"
+    },
+    {
+      "path": "docs/interface.md",
+      "kind": "text",
+      "reason": "Remove personal task and participation details",
+      "prior_sha256": "59df5478b6623e582b9deb1bcbd87691325b860af52ab06ccc22a26fd9824758",
+      "current_sha256": "ed64bcd45cecc075411f20c5cc4588bcbdf60fb18216e2aa5738d3ab3a2f4a7a"
+    },
+    {
+      "path": "fpga/rebuild.md",
+      "kind": "text",
+      "reason": "Remove personal task and participation details",
+      "prior_sha256": "e7de937d098ba0c3ddc7378a4a8c7783bd191bac3a7605181665f188d1f07c1e",
+      "current_sha256": "0e7cb71b6ef80c78c260f71156bcab234fbb89d5f05bfd6c759eb483251c0ecb"
+    },
+    {
+      "path": "host/app/README.md",
+      "kind": "text",
+      "reason": "Remove personal task and participation details",
+      "prior_sha256": "1b1a527e0fd29172e40041dc920640fce9936c83fa7cc9087bd7e59e9263970d",
+      "current_sha256": "58c1148cbd5e0fddedb461dfcb667a475f51534c1909d387be40052e2f5dc112"
+    },
+    {
+      "path": "host/deploy/README.md",
+      "kind": "text",
+      "reason": "Remove personal task and participation details",
+      "prior_sha256": "6285400878070918f5c75c095c0c1b681b111e1be6374989174f9eb94ab9d34b",
+      "current_sha256": "4dd7b2a6e74768634898180b26cd1ac4d2ad11bc906de7a500f52808ef618ac5"
+    },
+    {
+      "path": "licenses/README.md",
+      "kind": "text",
+      "reason": "Remove personal task and participation details",
+      "prior_sha256": "c4883641e34c4004bccffdbe94a87d11f6f9aaaf3e591965c9f791243f633683",
+      "current_sha256": "814d8c8c87f252c2acd8a0fcd62f670216309635f17e50a73b8045116980e29c"
+    },
+    {
+      "path": "licenses/license_review.md",
+      "kind": "text",
+      "reason": "Remove personal task and participation details",
+      "prior_sha256": "7ccd7575070c2fff406e3d7d7bdfbeda04c01151f6e13dc9ec452c2f318335ed",
+      "current_sha256": "b9e2dac6abea80cc8bf43d12f3e7472888a753a7f9800710aec849c65a78a9b9"
+    },
+    {
+      "path": "report/ai_collaboration.md",
+      "kind": "text",
+      "reason": "Remove personal task and participation details",
+      "prior_sha256": "e1de43ec206d637fc4c7b183f7f870ee1944642bade4fc31abde4474c9d695ab",
+      "current_sha256": "8a4dab784915084c7c435b93f34f272af77696097116d4c7d78fc13db16d94f1"
+    },
+    {
+      "path": "report/completion_checklist.md",
+      "kind": "text",
+      "reason": "Remove personal task and participation details",
+      "prior_sha256": "55191a5c4865dc60796843bd7d601fda7ca9fe8dbec6783eb6bc9b4260ddd1eb",
+      "current_sha256": "e3530b85a3742c82a0f6432a90925b9b25f3bad1f28809eac41450fb4d977b2d"
+    },
+    {
+      "path": "report/figures/report_figure_source.py",
+      "kind": "text",
+      "reason": "Remove personal task and participation details",
+      "prior_sha256": "24b54c5e7e0c73131aa852913340fd5581b03fff6f9c80ff17fed42fd0ba3750",
+      "current_sha256": "7f8dccfe4593f3279a8bf696576d73b0cea573c35ce641043927e2bcf72c2671"
+    },
+    {
+      "path": "report/technical_report.docx",
+      "kind": "document",
+      "reason": "Anonymize and revise the technical narrative while preserving evidence boundaries",
+      "prior_sha256": "535fdf993d68341fdaa241330ff0a18145ceda15989f5570149a02eb5eb81975",
+      "current_sha256": "752d65ddf80b49ef96c4a2b93eaec4e577bb88fac932a60aaf8ad74767c46786"
+    },
+    {
+      "path": "docs/architecture.md",
+      "kind": "text",
+      "reason": "Remove project-specific user and participation information",
+      "prior_sha256": "d08fe2c901438e3a81eb30df8c957216e0d54a2ac7425ae4b24a88e24d9c4ca4",
+      "current_sha256": "8d30140db313184bcc1f01daddfec7c60102658a9cffc994962c5955f41592b8"
+    },
+    {
+      "path": "skill/README.md",
+      "kind": "text",
+      "reason": "Remove project-specific user and participation information",
+      "prior_sha256": "3aa87d0b7b7dbfd7c6a1ebcb6c562aee7ea088f84662e6e0094c72c52b52d129",
+      "current_sha256": "eabe5985ae32bd0729836d06569e38453e10eaa97156ff60a90fed0f8f0689d2"
+    },
+    {
+      "path": "fpga/src/source_snapshot.zip",
+      "kind": "source_archive",
+      "reason": "Replace references to a person in historical documents and one auxiliary packaging script",
+      "members": [
+        {
+          "member": "baseline_v3_9/docs/TraceGPU_v3.9_版本规划.md",
+          "original_sha256": "15b6d1441093c115cbb11b6a48a5f5c57e9509112f5e221a09a1d673947fe5a8",
+          "current_sha256": "6a544463e581266f05670796f788eaf9ad767cb8ffd10dd8f831be3659d0c07f"
+        },
+        {
+          "member": "docs/TraceGPU_v4.6_UART_CNN保留与总线CNN移除_修改说明.md",
+          "original_sha256": "5c94372222d7c5a3df57e2eca1c53eeb9303fc029480bb08fb8aca4a5bf8d3e4",
+          "current_sha256": "7ac70ca48f157efa4b48ab980391233e915bd81dffe7affedaf5e8f653007481"
+        },
+        {
+          "member": "docs/TraceGPU_v4.6_阶段进展与修复记录.md",
+          "original_sha256": "20bc014a838c2a7cb37f3d7707d3560916c972c441b7741cb63b884f92ff3e3a",
+          "current_sha256": "4de2085bf947ee62bb4cdbce5c5d518825166d45ff13e1e0a2be03758d7abfd3"
+        },
+        {
+          "member": "docs/TraceGPU_v4.7_PL实时异常触发与证据分析_详细规划.md",
+          "original_sha256": "0b8aa7f410f2d676abaf3899edd0819746ffcd82781565a8696a1fa836b51dc9",
+          "current_sha256": "ad6f94a163117d8a2aad352979e367d0882d56d21d61310278d743377a3fdf5f"
+        },
+        {
+          "member": "docs/TraceGPU_v4.9_字体修复与重建说明.md",
+          "original_sha256": "3a8e8aa6812dcc6f8c9da6c476f4cd0799121bdf75971d832b03bb153ca2ee02",
+          "current_sha256": "5da54f5fce8ffdec3832a2f61958f29efda8268551d9a933b3f16d012b15dd7b"
+        },
+        {
+          "member": "scripts/package_v49_release.py",
+          "original_sha256": "bc17c28011957138dd2628c8fd30718e4994b0dbd3d4250cf1303fea7aca243f",
+          "current_sha256": "78605f6e82bff29eac3595e912d0f3c7e17e6cea0c50bd13226816f37e62465f"
+        }
+      ],
+      "prior_sha256": "3cad22016c9afaccc0149675f919641c0d4921d94650bb8c6d7e7dfbebb5ce58",
+      "current_sha256": "b64efeff681600fe6d0ed75d391c8357a57b5e6d7130c0626c45ef52d0a6b071"
+    },
+    {
+      "path": "fpga/prepare_allowlist.py",
+      "kind": "build_helper",
+      "reason": "Verify derivative documentation hashes before permitting isolated preflight",
+      "current_sha256": "c7f40ce876ba4554002b7bb3d6c672b8c63c3a3714d4141a48f87fe50fc9307e",
+      "prior_sha256": "c451b5c7aa968724325be367b4bd997ba75dc6e4cb0b448703f66564923e70f9"
+    }
+  ],
+  "original_engineering_modified": false,
+  "original_signoff_modified": false,
+  "source_archive_and_paired_artifacts_unchanged": false,
+  "note": "Original checkout and signoff untouched. The source archive is a derivative; 6 embedded files changed. Paired hardware and signoff records are byte-identical to prior copies. Fresh full build not performed.",
+  "excluded_count": 7
+}

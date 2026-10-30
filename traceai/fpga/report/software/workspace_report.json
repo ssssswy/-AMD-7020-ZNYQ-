@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "workspace": "D:/FPGA_gpu/TraceGPU_2025_2/v4.9_full/vitis_ws_ai_49018",
+  "metadata_initialized": false,
+  "version": "2025.2",
+  "components": {
+    "tracegpu_app/vitis-comp.json": "a1c0f6fd14b0be0f49ef57171b9898924fb6094c92bb1b18d0212892e060acb6",
+    "tracegpu_platform/vitis-comp.json": "8cbae854766c08e1075f29e8e700167a4ee4869514a6211261818c5c99e49b98",
+    "_ide/version.ini": "14edb5bd83d0c84295649a3d05d386627532191a43fd4263da5c037ea0bafb09"
+  },
+  "scope": "Checked after genuine platform/BSP/app builds; metadata is not BSP build evidence",
+  "programmed": false
+}

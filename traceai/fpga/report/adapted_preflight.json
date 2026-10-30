@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "preflight_only": true,
+  "source_inputs": 882,
+  "verified_allowlist_files": 17,
+  "scope": "Isolated extracted source on original computer; signed software source hashes checked; no synthesis, implementation, programming or board test",
+  "command": "python scripts/run_v49_cold.py --ai-variant v49_compare --native-variant trigger_v49_validated --attempt 99901",
+  "programmed": false,
+  "board_accepted": false
+}

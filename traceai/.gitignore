@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.Xil/
+*.jou
+*.wdb
+fpga/src/source_snapshot.zip
+fpga/build/routed.dcp
+*.partial

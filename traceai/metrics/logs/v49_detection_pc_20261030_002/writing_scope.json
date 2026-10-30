@@ -1,0 +1,6 @@
+{
+  "kind": "descriptive",
+  "audience": "project owner",
+  "purpose": "Assess current detector recall, per-type recall and false alarms",
+  "non_goals": "No training, no hardware downloads, no claim of end-to-end live detection rate"
+}

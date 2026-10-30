@@ -1,0 +1,76 @@
+{
+  "passed": true,
+  "scope": "Generated local fixtures only, not FPGA build or board test",
+  "programmed": false,
+  "board_accepted": false,
+  "checks": [
+    {
+      "name": "matching_bundle",
+      "passed": true
+    },
+    {
+      "name": "changed_bytes_fail",
+      "passed": true
+    },
+    {
+      "name": "relative_escape_rejected",
+      "passed": true
+    },
+    {
+      "name": "absolute_manifest_path_rejected",
+      "passed": true
+    },
+    {
+      "name": "malformed_digest_rejected",
+      "passed": true
+    },
+    {
+      "name": "wrong_xsa_pair_fails",
+      "passed": true
+    },
+    {
+      "name": "multiple_bit_members_fail",
+      "passed": true
+    },
+    {
+      "name": "negative_setup",
+      "passed": true
+    },
+    {
+      "name": "negative_hold",
+      "passed": true
+    },
+    {
+      "name": "missing_metric",
+      "passed": true
+    },
+    {
+      "name": "nan_metric",
+      "passed": true
+    },
+    {
+      "name": "drc_error",
+      "passed": true
+    },
+    {
+      "name": "drc_critical",
+      "passed": true
+    },
+    {
+      "name": "one_bit_without_xsa_rejected",
+      "passed": true
+    },
+    {
+      "name": "empty_evidence_rejected",
+      "passed": true
+    },
+    {
+      "name": "cli_propagates_failure",
+      "passed": true
+    }
+  ],
+  "source_inputs": {
+    "fpga-build-evidence\\scripts\\verify_bundle.py": "890177617a5218538887604561093051691fdddbc976cdeb36b69c9764782a97",
+    "tests\\test_bundle.py": "a3fac1c6e2dea05c2b17ca7ea9a7385cc339391df960c1e2af1cd8e1feaf2510"
+  }
+}

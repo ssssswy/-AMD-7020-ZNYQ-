@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "release": "D:/FPGA_gpu/TraceGPU_2025_2/v4.9_full/release/v4.9_display_repair_20261030",
+  "verified_artifacts": 199,
+  "source_files": 7770,
+  "documentation_links": 104,
+  "bit_xsa_match": true,
+  "fonts": {
+    "passed": true,
+    "fonts": [
+      {
+        "name": "tracegpu_font_control_medium_20.tgf",
+        "sha256": "badfcbdc1317d7e5c9cc222174ad51d4af394cd2c9d1cbc00f85fefa0b410b74",
+        "embedded_exactly_once": true,
+        "unchanged_v47": true
+      },
+      {
+        "name": "tracegpu_font_ui_regular_16.tgf",
+        "sha256": "cb792cb345532febcef58c329dca158e2339107d854cb9414cca6bbc0483b42c",
+        "embedded_exactly_once": true,
+        "unchanged_v47": true
+      }
+    ],
+    "scope": "New ELF embedded blobs match signed v4.7, not LCD acceptance"
+  },
+  "wns_ns": 0.018,
+  "whs_ns": 0.019,
+  "programmed": false,
+  "board_accepted": false
+}

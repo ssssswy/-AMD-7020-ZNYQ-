@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "seed": 49020261030,
+  "summary": {
+    "setup": {
+      "positive": 100,
+      "negative": 100,
+      "tp": 100,
+      "correct_type": 100,
+      "fp": 0
+    },
+    "hold": {
+      "positive": 100,
+      "negative": 100,
+      "tp": 100,
+      "correct_type": 100,
+      "fp": 0
+    }
+  },
+  "cases": 400
+}

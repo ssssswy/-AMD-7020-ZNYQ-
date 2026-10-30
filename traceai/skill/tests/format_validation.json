@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "scope": "Official skill-creator quick_validate format checks only; not FPGA or board validation",
+  "validator": "C:\\Users\\yang\\.codex\\skills\\.system\\skill-creator\\scripts\\quick_validate.py",
+  "validator_sha256": "6068513d924ed3559e186dfcdead7439129828dcf402167fd925c06dffbf2806",
+  "skill_sha256": "d17898a3d7f4be78ff619c2f0a63fd117227999217025bbc094e231e8121f58e",
+  "isolated_dependency": "PyYAML-6.0.2-cp312-cp312-win_amd64.whl",
+  "dependency_sha256": "7e7401d0de89a9a855c839bc697c079a4af81cf878373abd7dc625847d25cbd8",
+  "global_package_installed": false,
+  "output": "Skill is valid!\n",
+  "programmed": false,
+  "board_accepted": false
+}
