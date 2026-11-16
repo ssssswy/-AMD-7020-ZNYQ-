@@ -2,6 +2,8 @@
 
 TraceAI 基于 Zynq-7020，集成八路同步逻辑采集、UART/SPI/I²C 分析、触控波形浏览，以及 PL 端 UART INT8 网络与规则触发。PS 负责数据处理和交互界面。
 
+最新软件：[v5.1 源码](v5.1/README.md)；[修复原因、实现及验证结果](v5.1/docs/UART连续帧修复说明.md)。原有硬件和历史材料保留，v5.1 维护软件入口为 `v5.1/software_v5_1`。
+
 | 目录 | 内容 |
 |---|---|
 | `fpga/src/source_snapshot.zip` | 带完整相对结构的源码归档及构建入口 |

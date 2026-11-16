@@ -2,6 +2,12 @@
 
 基于 Zynq-7020 的逻辑采集、协议分析及异常检测项目。详细说明和工程文件见 [traceai/README.md](traceai/README.md)。
 
+## 最新版本
+
+[v5.1 源码与构建入口](traceai/v5.1/README.md) · [连续 UART 帧修复说明](traceai/v5.1/docs/UART连续帧修复说明.md)
+
+v5.1 修复连续 UART 帧起始沿漏判、字节错位和帧错误。9,216 组主机测试及 Vitis 2025.2 新平台/BSP/应用构建通过，板上验收待进行。
+
 ## 开源许可
 
 本仓库中的**原创且有权授权的代码与文档**采用 [MIT License](LICENSE) 授权（Copyright © 2026 ssssswy）。

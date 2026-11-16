@@ -1,0 +1,13 @@
+.section .rodata
+.balign 4
+.global tracegpu_font_ui_regular_16_start
+.global tracegpu_font_ui_regular_16_end
+tracegpu_font_ui_regular_16_start:
+.incbin "assets/fonts/tracegpu_font_ui_regular_16.tgf"
+tracegpu_font_ui_regular_16_end:
+.balign 4
+.global tracegpu_font_control_medium_20_start
+.global tracegpu_font_control_medium_20_end
+tracegpu_font_control_medium_20_start:
+.incbin "assets/fonts/tracegpu_font_control_medium_20.tgf"
+tracegpu_font_control_medium_20_end:

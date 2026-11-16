@@ -1,0 +1,62 @@
+{
+  "version": "5.1",
+  "software_build": "51001",
+  "hardware_reused": "49011",
+  "tool": "Vitis 2025.2",
+  "part": "xc7z020clg400-2",
+  "elf_sha256": "7f2b6a6202c04c0d7731c87f7a65994094d17d8469941f8271ab7c7fe466be5e",
+  "bit_sha256": "09999b044e32ed15e8c1bc7d2462733531b55df2a4afc3e8fdb1b6649aead6fb",
+  "xsa_sha256": "aa8f13573e5d0137bb61b585937f425f2cb4c4801fef4a7a649976f80c20c16e",
+  "host_tests": [
+    {
+      "name": "contiguous",
+      "passed": true,
+      "stdout": "V51_UART_CONTIGUOUS_PASS cases=9216 frames=2359296 channels=8 bits=7,8 gap=0,1 baud_error_ppm=+-5000 start_end_identity=PASS\n"
+    },
+    {
+      "name": "boundary_controls",
+      "passed": true,
+      "stdout": "NEGATIVE_CONTROLS_PASS stop_center_low parity_flip partial_tail capture_gap error_preserved\n"
+    },
+    {
+      "name": "contiguous_pipeline",
+      "passed": true,
+      "stdout": "V51_UART_PIPELINE_PASS cases=216 channels=8 rates=9 chunks=1,7,127 manager256 review_first_last range_start_exact=1\n"
+    },
+    {
+      "name": "rs485_vector",
+      "passed": true,
+      "stdout": "RS485_VECTOR_V37_PASS scenarios=161 literal_crc=C5CD exact_full_stop=1 packed_abi=1 decoder_bytes=504\n"
+    },
+    {
+      "name": "modbus",
+      "passed": true,
+      "stdout": "MODBUS_V3_7 PASS cases=746 assertions=40291 decoder_bytes=368 frame_bytes=304\n"
+    },
+    {
+      "name": "logic_complete",
+      "passed": true,
+      "stdout": "UART_VECTOR_GOLDEN_PASS formats=108 bytes=00..FF splits=1,7,127\nDECODE_ERRORS_PASS parity/frame/GAP/partial/64bit/cancel/stale\nEXPORT_PASS immutable exact raw/header/footer ACK retry cancel index size=23088 manager=214464\nTRIGGER_EXPORT_EVIDENCE_PASS conditions/coverage/identity/CRC host sample\nEXPORT_CAPACITY_PASS 524288 records / selection / stale\nLOGIC_MEASURE_PASS complete period/high / bounded / GAP invalid\nTRANSPORT_FAULT_PASS bad CRC/session/sequence / exact retries / timeout\n"
+    },
+    {
+      "name": "logic_review",
+      "passed": true,
+      "stdout": "REVIEW_UART_CAPACITY_PASS 2048 frames first/middle/last stable ordinals splits=1,7,127 masks/64bit/independent slots\nREVIEW_UART_BOUNDARIES_PASS GAP/RESYNC no sequence bridge error semantics cancel/stale/revision\nREVIEW_I2C_CAPACITY_PASS 300 transactions tail/32-byte detail total40 ACK/NACK beyond cache normal STOP semantics\nREVIEW_SPI_CAPACITY_PASS 5000 words single-CS tail/MOSI/MISO masks no cross-CS partial transaction\nLOGIC_REVIEW_PASS workspace=123936 detail=416 manager=214464\n"
+    },
+    {
+      "name": "logic_eight",
+      "passed": true,
+      "stdout": "EIGHT_VECTOR_MASK_LANES_PASS raw16bytes shared8 no_uncollected_zero stale_identity\nEIGHT_CH8_UART_REVIEW_PASS 2048frames tailFF independent2 64bit cancel\nEIGHT_HIGH_I2C_SPI_PASS CH5_CH8_i2c CH5to8_spi repeated_map_rejected\nEIGHT_CH8_MEASURE_GAP_PASS period100 high50 1024cycles no_false_GAP_result\nEIGHT_TRIGGER_STORE_PASS source80 independent_levels_known fixed4predicates shared_vector\nV3_2_EIGHT_LOGIC_CORE_PASS_NOT_BOARD_ACCEPTED\n"
+    },
+    {
+      "name": "uart_readback",
+      "passed": true,
+      "stdout": "PASS UART MMIO: four independent bases, 7O2 format, NCO readback mismatch rejected\n"
+    }
+  ],
+  "source_members": 105,
+  "memory_passed": true,
+  "margin_to_framebuffer": 450512,
+  "programmed": false,
+  "board_accepted": false
+}
